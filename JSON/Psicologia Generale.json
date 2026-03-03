@@ -1,0 +1,4552 @@
+[
+  {
+    "id": "Q001",
+    "question": "La psicologia è una disciplina scientifica perché:",
+    "choices": [
+      "utilizza metodi quantitativi",
+      "utilizza il metodo scientifico §§§[OK]",
+      "si basa sulla biologia",
+      "si basa sulla letteratura scientifica"
+    ],
+    "chapter": "Lezione 1 - Alle origini della psicologia scientifica: strutturalismo e funzionalismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q002",
+    "question": "Un esempio di variabile comportamentale analizzata dalla psicologia è:",
+    "choices": [
+      "il pensiero",
+      "la memoria",
+      "la performance §§§[OK]",
+      "la creatività"
+    ],
+    "chapter": "Lezione 1 - Alle origini della psicologia scientifica: strutturalismo e funzionalismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q003",
+    "question": "La psicologia è stata definita come una scienza di:",
+    "choices": [
+      "variabili",
+      "mediazioni §§§[OK]",
+      "teorie",
+      "concetti"
+    ],
+    "chapter": "Lezione 1 - Alle origini della psicologia scientifica: strutturalismo e funzionalismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q004",
+    "question": "La città di origine della psicologia come disciplina scientifica è:",
+    "choices": [
+      "Lipsia §§§[OK]",
+      "Roma",
+      "NewYork",
+      "Cracovia"
+    ],
+    "chapter": "Lezione 1 - Alle origini della psicologia scientifica: strutturalismo e funzionalismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q005",
+    "question": "La data di nascita della psicologia scientifica si considera il:",
+    "choices": [
+      "1879 §§§[OK]",
+      "1888",
+      "1901",
+      "1913"
+    ],
+    "chapter": "Lezione 1 - Alle origini della psicologia scientifica: strutturalismo e funzionalismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q006",
+    "question": "A fondare la psicologia scientifica è stato:",
+    "choices": [
+      "Freud",
+      "Wundt §§§[OK]",
+      "James",
+      "Bowlby"
+    ],
+    "chapter": "Lezione 1 - Alle origini della psicologia scientifica: strutturalismo e funzionalismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q007",
+    "question": "A importare l'approccio strutturalista negli Stati Uniti è stato:",
+    "choices": [
+      "Winnicott",
+      "Peirce",
+      "Van Dosen",
+      "Titchener §§§[OK]"
+    ],
+    "chapter": "Lezione 1 - Alle origini della psicologia scientifica: strutturalismo e funzionalismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q008",
+    "question": "Il fallimento del metodo strutturalista è legato:",
+    "choices": [
+      "all'assenza di riproducibilità",
+      "a problemi nell'analisi dei dati",
+      "all'impossibilità di risolvere le controversie §§§[OK]",
+      "a teorie scorrette"
+    ],
+    "chapter": "Lezione 1 - Alle origini della psicologia scientifica: strutturalismo e funzionalismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q009",
+    "question": "Importante figura legata al funzionalismo americano è:",
+    "choices": [
+      "Bernin",
+      "Bergman",
+      "James §§§[OK]",
+      "Titchener"
+    ],
+    "chapter": "Lezione 1 - Alle origini della psicologia scientifica: strutturalismo e funzionalismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q010",
+    "question": "Secondo la visione funzionalista la mente è:",
+    "choices": [
+      "una struttura",
+      "un flusso §§§[OK]",
+      "un costrutto",
+      "una teoria"
+    ],
+    "chapter": "Lezione 1 - Alle origini della psicologia scientifica: strutturalismo e funzionalismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q011",
+    "question": "All'origine della psicoanalisi vi fu l'interesse di Freud verso una malattia, la:",
+    "choices": [
+      "schizofrenia",
+      "ischemia",
+      "isteria §§§[OK]",
+      "neuropatia"
+    ],
+    "chapter": "Lezione 2 - Psicoanalisi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q012",
+    "question": "Freud incontrò Charcot nel:",
+    "choices": [
+      "1870",
+      "1880",
+      "1885 §§§[OK]",
+      "1903"
+    ],
+    "chapter": "Lezione 2 - Psicoanalisi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q013",
+    "question": "L'energia nervosa oggetto delle teorie psicoanalitiche si chiama:",
+    "choices": [
+      "rinforzo",
+      "pulsione",
+      "sensazione",
+      "libido §§§[OK]"
+    ],
+    "chapter": "Lezione 2 - Psicoanalisi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q014",
+    "question": "Tra i meccanismi di difesa teorizzati da Freud troviamo la:",
+    "choices": [
+      "libera associazione",
+      "realizzazione",
+      "formazione reattiva §§§[OK]",
+      "astrazione"
+    ],
+    "chapter": "Lezione 2 - Psicoanalisi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q015",
+    "question": "Tra le fasi dello sviluppo psicosessuale troviamo la:",
+    "choices": [
+      "fase anale §§§[OK]",
+      "fase corporale",
+      "fase riflessiva",
+      "fase sessualizzata"
+    ],
+    "chapter": "Lezione 2 - Psicoanalisi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q016",
+    "question": "La fase di latenza dello sviluppo psico sessuale inizia intorno a:",
+    "choices": [
+      "4 anni dietà",
+      "6 anni dietà §§§[OK]",
+      "9 anni dietà",
+      "11 anni dietà"
+    ],
+    "chapter": "Lezione 2 - Psicoanalisi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q017",
+    "question": "Per Klein la pulsione è sempre diretta a:",
+    "choices": [
+      "l'altro",
+      "il sé",
+      "un oggetto §§§[OK]",
+      "una forma"
+    ],
+    "chapter": "Lezione 2 - Psicoanalisi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q018",
+    "question": "La psicoanalisi costituisce:",
+    "choices": [
+      "un sinonimo della psicologia dinamica",
+      "un sinonimo di psicanalisi o psicologia analitica",
+      "un approccio all'interno della psicologia dinamica §§§[OK]",
+      "un farmaco"
+    ],
+    "chapter": "Lezione 2 - Psicoanalisi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q019",
+    "question": "Il concetto di archetipo è associato alla figura di:",
+    "choices": [
+      "Freud",
+      "Abraham",
+      "Winnicott",
+      "Jung §§§[OK]"
+    ],
+    "chapter": "Lezione 2 - Psicoanalisi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q020",
+    "question": "Sandor Ferenczi fu îl primo a:",
+    "choices": [
+      "sviluppare una teoria psicoanalitica",
+      "utilizzare il termine \"psicoanalisi\"",
+      "sviluppare strumenti di valutazione psicologica",
+      "insegnare psicoanalisi all'università §§§[OK]"
+    ],
+    "chapter": "Lezione 2 - Psicoanalisi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q021",
+    "question": "Prima di scoprire il condizionamento classico, Pavlov era interessato a studiare:",
+    "choices": [
+      "il comportamento dei cani",
+      "la digestione §§§[OK]",
+      "la presenza di un'anima",
+      "il ruolo del cervello nelle malattie fisiche"
+    ],
+    "chapter": "Lezione 3 - Comportamentismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q022",
+    "question": "Il comportamentismo fu in parte influenzato dal funzionalismo, in particolare nei termini:",
+    "choices": [
+      "dell'attenzione al comportamento manifesto §§§[OK]",
+      "del riferimento alla teoria dell'evoluzione",
+      "dell'attenzione ai processi interiori",
+      "dell'interesse verso i processi di categorizzazione sociale"
+    ],
+    "chapter": "Lezione 3 - Comportamentismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q023",
+    "question": "Il manifesto del comportamentismo fu scritto da:",
+    "choices": [
+      "Skinner",
+      "Thorndike",
+      "Watson §§§[OK]",
+      "Tolman"
+    ],
+    "chapter": "Lezione 3 - Comportamentismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q024",
+    "question": "Completa questa frase del manifesto del comportamentismo: “Sono convinto che siamo in grado di scrivere una psicologia senza il concetto di...",
+    "choices": [
+      "comportamento",
+      "osservazione",
+      "scienza",
+      "coscienza §§§[OK]"
+    ],
+    "chapter": "Lezione 3 - Comportamentismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q025",
+    "question": "Per i comportamentisti il metodo introspettivo è:",
+    "choices": [
+      "efficace",
+      "innovativo",
+      "inservibile §§§[OK]",
+      "incomprensibile"
+    ],
+    "chapter": "Lezione 3 - Comportamentismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q026",
+    "question": "Nel noto esperimento di \"little Albert‘ un bambino veniva:",
+    "choices": [
+      "abbracciato",
+      "educato",
+      "spaventato §§§[OK]",
+      "nascosto"
+    ],
+    "chapter": "Lezione 3 - Comportamentismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q027",
+    "question": "Il condizionamento operante si chiama così perché:",
+    "choices": [
+      "si basa su operazioni matematiche",
+      "il soggetto fa delle azioni §§§[OK]",
+      "è gestito dallo sperimentatore",
+      "è caratterizzato da operatività"
+    ],
+    "chapter": "Lezione 3 - Comportamentismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q028",
+    "question": "La ripetizione di una risposta è tanto più probabile quanto più spesso viene ripetuta. Si tratta della legge:",
+    "choices": [
+      "dell'effetto",
+      "del comportamento",
+      "dell'analisi",
+      "dell'esercizio §§§[OK]"
+    ],
+    "chapter": "Lezione 3 - Comportamentismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q029",
+    "question": "Un noto studioso neocomportamentista è:",
+    "choices": [
+      "Tolman §§§[OK]",
+      "Skinner",
+      "Watson",
+      "Thorndike"
+    ],
+    "chapter": "Lezione 3 - Comportamentismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q030",
+    "question": "Una rivista scientifica che ancora oggi si occupa molto di studi con approccio comportamentista e sul",
+    "choices": [
+      "brain science",
+      "computers in human behavior",
+      "brain e and behavioral reviews",
+      "journal of the experimental analysis of behavior §§§[OK]"
+    ],
+    "chapter": "Lezione 3 - Comportamentismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q031",
+    "question": "La scuola della Gestalt si è sviluppata in:",
+    "choices": [
+      "Italia",
+      "Francia",
+      "Germania §§§[OK]",
+      "Russia"
+    ],
+    "chapter": "Lezione 4 - Gestalt",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q032",
+    "question": "L'assioma fondamentale della Gestalt dice che il tutto è:",
+    "choices": [
+      "un costrutto fondamentale della psicologia",
+      "parte dell'infinito",
+      "più della somma delle sue parti §§§[OK]",
+      "un concetto matematico"
+    ],
+    "chapter": "Lezione 4 - Gestalt",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q033",
+    "question": "Il primo articolo di Max Wertheimer, che si considera l'inizio della scuola della Gestalt, era incentrato sul:",
+    "choices": [
+      "pensiero",
+      "bias cognitivo della sovrapposizione",
+      "gruppo",
+      "movimento apparente §§§[OK]"
+    ],
+    "chapter": "Lezione 4 - Gestalt",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q034",
+    "question": "Un autore importante della scuola della Gestalt è stato:",
+    "choices": [
+      "Koffka §§§[OK]",
+      "Waizer",
+      "Berners",
+      "Orlandi"
+    ],
+    "chapter": "Lezione 4 - Gestalt",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q035",
+    "question": "Secondo la legge del destino comune, gli elementi che si muovono nella stessa direzione:",
+    "choices": [
+      "vengono percepiti come appartenenti alla stessa figura §§§[OK]",
+      "vengono raggruppati in figure differenti",
+      "vengono raggruppati o distingi a seconda delle differenze individuali",
+      "sostengono il medesimo processo percettivo"
+    ],
+    "chapter": "Lezione 4 - Gestalt",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q036",
+    "question": "Tendiamo a percepire come figura tre linee che sembrano costituire gli angoli di un triangolo, anche se i",
+    "choices": [
+      "del destino comune",
+      "della buona forma",
+      "della chiusura §§§[OK]",
+      "della pregnanza"
+    ],
+    "chapter": "Lezione 4 - Gestalt",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q037",
+    "question": "Lewin è considerato una figura importante in particolare per la psicologia:",
+    "choices": [
+      "generale",
+      "sociale §§§[OK]",
+      "economica",
+      "dei nuovi media"
+    ],
+    "chapter": "Lezione 4 - Gestalt",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q038",
+    "question": "Lewin nacque in:",
+    "choices": [
+      "Germania",
+      "Prussia §§§[OK]",
+      "Svizzera",
+      "Olanda"
+    ],
+    "chapter": "Lezione 4 - Gestalt",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q039",
+    "question": "C =(X, A) - nella formula della teoria del campo di Lewin, al posto della X va:",
+    "choices": [
+      "P §§§[OK]",
+      "D",
+      "c",
+      "M"
+    ],
+    "chapter": "Lezione 4 - Gestalt",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q040",
+    "question": "Nella più famosa ricerca-azione di Lewin i partecipanti erano:",
+    "choices": [
+      "militari",
+      "scienziati",
+      "studenti",
+      "massaie §§§[OK]"
+    ],
+    "chapter": "Lezione 4 - Gestalt",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q041",
+    "question": "La nascita del Cognitivismo è legata all'emergere:",
+    "choices": [
+      "delle neuroscienze",
+      "dei computer §§§[OK]",
+      "della realtà virtuale",
+      "di movimenti sociali e politici"
+    ],
+    "chapter": "Lezione 5 - Cognitivismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q042",
+    "question": "Del Comportamentismo, il Cognitivismo puntava a mantenere:",
+    "choices": [
+      "l'attenzione al comportamento",
+      "il meccanismo Stimolo-Risposta",
+      "la legge dell'effetto",
+      "il rigore metodologico §§§[OK]"
+    ],
+    "chapter": "Lezione 5 - Cognitivismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q043",
+    "question": "Il Cognitivismo emerse:",
+    "choices": [
+      "tra gli anni Cinquanta e Sessanta §§§[OK]",
+      "tra gli anni Sessanta e Settanta",
+      "tra gli anni Trenta e Quaranta",
+      "tra gli anni Settanta e Ottanta"
+    ],
+    "chapter": "Lezione 5 - Cognitivismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q044",
+    "question": "Uno dei fondatori del Cognitivismo è:",
+    "choices": [
+      "Rogers",
+      "Miller §§§[OK]",
+      "Freud",
+      "Piaget"
+    ],
+    "chapter": "Lezione 5 - Cognitivismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q045",
+    "question": "Una delle fasi del modello TOTE è:",
+    "choices": [
+      "thanatos",
+      "observation",
+      "tracing",
+      "exit §§§[OK]"
+    ],
+    "chapter": "Lezione 5 - Cognitivismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q046",
+    "question": "IL TOTE è un modello:",
+    "choices": [
+      "che punta a descrivere ogni possibile comportamento §§§[OK]",
+      "che descrive i processi emotivi",
+      "di matrice umanistica",
+      "mutuato dalla sociologia"
+    ],
+    "chapter": "Lezione 5 - Cognitivismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q047",
+    "question": "Lo psicologo che propose una “revisione” del Cognitivismo è:",
+    "choices": [
+      "Galanter",
+      "Williams",
+      "Neisser §§§[OK]",
+      "Higgins"
+    ],
+    "chapter": "Lezione 5 - Cognitivismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q048",
+    "question": "La filosofia della mente:",
+    "choices": [
+      "è smentita dal Cognitivismo",
+      "è alla base del Cognitivismo",
+      "fa parte delle Scienze Cognitive §§§[OK]",
+      "deriva dalle neuroscienze"
+    ],
+    "chapter": "Lezione 5 - Cognitivismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q049",
+    "question": "Per la sua ricerca di antropologia cognitiva, Hutchins visse per un anno:",
+    "choices": [
+      "inuna comunità Amish",
+      "su unanave militare §§§[OK]",
+      "neiboschi",
+      "con una tribù africana"
+    ],
+    "chapter": "Lezione 5 - Cognitivismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q050",
+    "question": "Fondatore della terapia razionale-emotiva è stato:",
+    "choices": [
+      "Ellis §§§[OK]",
+      "Rogers",
+      "Bruner",
+      "Papadopolous"
+    ],
+    "chapter": "Lezione 5 - Cognitivismo",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q051",
+    "question": "“I processi computazionali realizzabili all'interno delle macchine sono equiparabili ai pensieri\"; si tratta",
+    "choices": [
+      "IA debole",
+      "IA essenziale",
+      "IA forte §§§[OK]",
+      "IA filosofica"
+    ],
+    "chapter": "Lezione 6 - Embodied Cognition",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q052",
+    "question": "La conferenza considerata nascita della Intelligenza Artificiale fu al:",
+    "choices": [
+      "MIT",
+      "Dartmouth college §§§[OK]",
+      "SKEMA business centre",
+      "OxfordIA laboratory"
+    ],
+    "chapter": "Lezione 6 - Embodied Cognition",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q053",
+    "question": "“Embodied Cognition\" si potrebbe tradurre come:",
+    "choices": [
+      "cognizione nel corpo",
+      "cognizione corporale",
+      "cognizione accorpata",
+      "cognizione incarnata §§§[OK]"
+    ],
+    "chapter": "Lezione 6 - Embodied Cognition",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q054",
+    "question": "Secondo Shapiro, per la Embodied Cognition il concetto di rappresentazione în passato è stato:",
+    "choices": [
+      "sconosciuto",
+      "compreso a fondo",
+      "sovrausato §§§[OK]",
+      "dimenticato"
+    ],
+    "chapter": "Lezione 6 - Embodied Cognition",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q055",
+    "question": "Gli studi della Embodied Cognition:",
+    "choices": [
+      "sono incentrati sulla rappresentazione corporea degli individui",
+      "si interessano al ruolo del corpo nella società",
+      "sono incorporati in teorie più ampie della cognizione",
+      "sono interessati a come gli indizi sensoriali influenzano la cognizione §§§[OK]"
+    ],
+    "chapter": "Lezione 6 - Embodied Cognition",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q056",
+    "question": "Bargh ha studiato, tra gli altri, gli effetti di quale fattore sulla cognizione:",
+    "choices": [
+      "empatia",
+      "fantasia",
+      "durezza §§§[OK]",
+      "chiarezza"
+    ],
+    "chapter": "Lezione 6 - Embodied Cognition",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q057",
+    "question": "Negli studi di Bargh, a valutatori veniva fornito:",
+    "choices": [
+      "untriciclo",
+      "un coltello",
+      "unsedile",
+      "un portablocco §§§[OK]"
+    ],
+    "chapter": "Lezione 6 - Embodied Cognition",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q058",
+    "question": "Il personaggio del noto esperimento mentale di Clark si chiamava:",
+    "choices": [
+      "Otto §§§[OK]",
+      "Gianni",
+      "Tom",
+      "Barney"
+    ],
+    "chapter": "Lezione 6 - Embodied Cognition",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q059",
+    "question": "Il personaggio del noto esperimento mentale di Clark amava:",
+    "choices": [
+      "correre",
+      "visitare mostre artistiche §§§[OK]",
+      "mangiare hamburger",
+      "cantare"
+    ],
+    "chapter": "Lezione 6 - Embodied Cognition",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q060",
+    "question": "Per Clark l'essere umano è un natural born:",
+    "choices": [
+      "cyborg §§§[OK]",
+      "learner",
+      "player",
+      "gambler"
+    ],
+    "chapter": "Lezione 6 - Embodied Cognition",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q061",
+    "question": "Sensazione e percezione hanno permesso, come temi di ricerca, di riconoscere che l'introspezione non era un metodo di ricerca affidabile, perché:",
+    "choices": [
+      "non siamo consapevoli di come percepiamo qualcosa §§§[OK]",
+      "la percezione non è introspettiva",
+      "l'introspezione non forniva indici statistici adeguati all'analisi",
+      "la percezione era troppo complessa"
+    ],
+    "chapter": "Lezione 7 - Sensazione e percezione",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q062",
+    "question": "La percezione come processo viene effettuata:",
+    "choices": [
+      "dagliocchi",
+      "dalle orecchie",
+      "dal cervello §§§[OK]",
+      "dall'intero corpo"
+    ],
+    "chapter": "Lezione 7 - Sensazione e percezione",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q063",
+    "question": "L'informazione \"ricorstruita\" dal cervello rispetto a un segnale sensoriale si chiama:",
+    "choices": [
+      "senso",
+      "codifica sensoriale",
+      "percetto §§§[OK]",
+      "appercezione"
+    ],
+    "chapter": "Lezione 7 - Sensazione e percezione",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q064",
+    "question": "La soglia assoluta è:",
+    "choices": [
+      "l'intensità massima che un'energia deve avere per non essere dolorosa per chi la percepisce",
+      "l'intensità minima che un'energia deve avere per essere percepita dal sistema sensoriale §§§[OK]",
+      "l'intensità minima che un'energia deve avere per essere elaborata come processo cognitivo",
+      "l'intensità massima possibile per un'energia"
+    ],
+    "chapter": "Lezione 7 - Sensazione e percezione",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q065",
+    "question": "Un nome importante per la psicofisica è quello di:",
+    "choices": [
+      "james",
+      "tichtener",
+      "asch",
+      "fechner §§§[OK]"
+    ],
+    "chapter": "Lezione 7 - Sensazione e percezione",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q066",
+    "question": "L'esperimento di Weber vedeva i partecipanti:",
+    "choices": [
+      "effettuare delle operazioni matematiche",
+      "osservare delle scene di interazione sociale",
+      "sorreggere un peso §§§[OK]",
+      "imparare una lingua sconosciuta"
+    ],
+    "chapter": "Lezione 7 - Sensazione e percezione",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q067",
+    "question": "Nel corso della giornata cessiamo di accorgerci di avere addosso dei vestiti. Si tratta del processo di:",
+    "choices": [
+      "codifica sensoriale",
+      "adattamento sensoriale §§§[OK]",
+      "percezione sensoriale",
+      "codifica vestibolare"
+    ],
+    "chapter": "Lezione 7 - Sensazione e percezione",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q068",
+    "question": "Nell'occhio, la membrana che convoglia la luce sul cristallino si chiama:",
+    "choices": [
+      "iride",
+      "pupilla",
+      "retina",
+      "cornea §§§[OK]"
+    ],
+    "chapter": "Lezione 7 - Sensazione e percezione",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q069",
+    "question": "Nell'orecchio, martello, incudine e staffa sono:",
+    "choices": [
+      "muscoli",
+      "centri nervosi",
+      "ossicini §§§[OK]",
+      "cellule"
+    ],
+    "chapter": "Lezione 7 - Sensazione e percezione",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q070",
+    "question": "Le principali sensazioni gustative sono:",
+    "choices": [
+      "tre",
+      "cinque §§§[OK]",
+      "sei",
+      "otto"
+    ],
+    "chapter": "Lezione 7 - Sensazione e percezione",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q071",
+    "question": "La percezione del dolore è detta;",
+    "choices": [
+      "extracezione",
+      "nocicezione §§§[OK]",
+      "subcezione",
+      "algocezione"
+    ],
+    "chapter": "Lezione 8 - Il dolore",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q072",
+    "question": "Le sensazioni associate a dolore interno al corpo ma che si sentono sulla pelle sono dette:",
+    "choices": [
+      "dolore riferito §§§[OK]",
+      "dolore cutaneo",
+      "dolore superficiale",
+      "dolore esterno"
+    ],
+    "chapter": "Lezione 8 - Il dolore",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q073",
+    "question": "Per la sua definizione il dolore cronico deve presentarsi:",
+    "choices": [
+      "per più di due mesi",
+      "per più di tre mesi",
+      "per più di sei mesi §§§[OK]",
+      "per più di dodici mesi"
+    ],
+    "chapter": "Lezione 8 - Il dolore",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q074",
+    "question": "La teoria di Melzack e Wall del 1965 sì chiama:",
+    "choices": [
+      "gate control §§§[OK]",
+      "rate control",
+      "mate control",
+      "breath control 2"
+    ],
+    "chapter": "Lezione 8 - Il dolore",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q075",
+    "question": "Fibre nervose deputate a sensazioni termiche e tattili sono le:",
+    "choices": [
+      "fibre A-delta",
+      "fibre A-iota",
+      "fibre A-gamma",
+      "fibre A-beta §§§[OK]"
+    ],
+    "chapter": "Lezione 8 - Il dolore",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q076",
+    "question": "La teoria della neuromatrice attribuisce un ruolo importante nel dolore a:",
+    "choices": [
+      "leviscere",
+      "il midollo spinale",
+      "il cervello §§§[OK]",
+      "leemozioni"
+    ],
+    "chapter": "Lezione 8 - Il dolore",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q077",
+    "question": "L'ambiente virtuale sviluppato da Hoffman per la gestione del dolore si chiamava:",
+    "choices": [
+      "free world",
+      "snow world §§§[OK]",
+      "fantasy world",
+      "island world"
+    ],
+    "chapter": "Lezione 8 - Il dolore",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q078",
+    "question": "L'ambiente virtuale sviluppato da Hoffman per la gestione del dolore si utilizzava principalmente con:",
+    "choices": [
+      "pazienti oncologici",
+      "pazienti diabetici",
+      "pazienti ustionati §§§[OK]",
+      "pazienti psichiatrici"
+    ],
+    "chapter": "Lezione 8 - Il dolore",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q079",
+    "question": "Per la gestione del dolore acuto si utilizza Realtà Virtuale a fini di:",
+    "choices": [
+      "focalizzazione",
+      "rilassamento",
+      "distrazione §§§[OK]",
+      "meditazione"
+    ],
+    "chapter": "Lezione 8 - Il dolore",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q080",
+    "question": "Alcune applicazioni innovative di Realtà Virtuale per il dolore cronico mostrano ai pazienti:",
+    "choices": [
+      "ambienti rilassanti",
+      "animazioni musicali",
+      "trailer cinematografici",
+      "un corpo virtuale §§§[OK]"
+    ],
+    "chapter": "Lezione 8 - Il dolore",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q081",
+    "question": "Una delle funzioni principali della coscienza è il:",
+    "choices": [
+      "pensiero",
+      "sonno",
+      "supporto del corpo",
+      "monitoraggio §§§[OK]"
+    ],
+    "chapter": "Lezione 9 - La coscienza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q082",
+    "question": "Per il cognitivismo la coscienza è concepibile come:",
+    "choices": [
+      "stimolo-risposta",
+      "elaboratore di informazioni §§§[OK]",
+      "io",
+      "autorealizzazione"
+    ],
+    "chapter": "Lezione 9 - La coscienza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q083",
+    "question": "Tra questi non è uno stato alterato di coscienza:",
+    "choices": [
+      "la meditazione",
+      "l'effetto di consumo di alcol",
+      "lostato vegetativo",
+      "l'atteggiamento §§§[OK]"
+    ],
+    "chapter": "Lezione 9 - La coscienza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q084",
+    "question": "La meditazione genera:",
+    "choices": [
+      "pensiero riflessivo",
+      "miglior accesso ai ricordi",
+      "riduzione della tensione fisica §§§[OK]",
+      "meta-emozioni"
+    ],
+    "chapter": "Lezione 9 - La coscienza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q085",
+    "question": "La caffeina fa parte di:",
+    "choices": [
+      "stimolanti §§§[OK]",
+      "calmanti",
+      "lisergici",
+      "rilassanti"
+    ],
+    "chapter": "Lezione 9 - La coscienza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q086",
+    "question": "Tra le sostanze considerate \"calmanti\" rientra:",
+    "choices": [
+      "lo zucchero",
+      "i barbiturici §§§[OK]",
+      "la lacocaina",
+      "la mariuana"
+    ],
+    "chapter": "Lezione 9 - La coscienza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q087",
+    "question": "Il paziente è cosciente ma completamente o quasi completamente paralizzato. Si tratta di:",
+    "choices": [
+      "coma",
+      "sindrome locked-in §§§[OK]",
+      "stato vegetativo",
+      "veglia"
+    ],
+    "chapter": "Lezione 9 - La coscienza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q088",
+    "question": "Mesmer pensava di curare i suoi pazienti utilizzando:",
+    "choices": [
+      "sostanze psicoattive",
+      "terapie psicodinamiche",
+      "magneti §§§[OK]",
+      "massaggi"
+    ],
+    "chapter": "Lezione 9 - La coscienza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q089",
+    "question": "La teoria della scissione o dell'osservatore nascosto è stata proposta da:",
+    "choices": [
+      "Hilgard §§§[OK]",
+      "Skinner",
+      "Baddeley",
+      "Charcot"
+    ],
+    "chapter": "Lezione 9 - La coscienza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q090",
+    "question": "Il nome dî Kirsch è associato alla teoria:",
+    "choices": [
+      "dello stato vegetativo",
+      "della coscienza incarnata",
+      "della memoria di lavoro",
+      "del non-stato §§§[OK]"
+    ],
+    "chapter": "Lezione 9 - La coscienza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q091",
+    "question": "Secondo Walker la principale funzione rigenerativa del sonno potrebbe riguardare:",
+    "choices": [
+      "la memoria",
+      "la regolazione delle emozioni §§§[OK]",
+      "l'apprendimento",
+      "la forza fisica"
+    ],
+    "chapter": "Lezione 10 - Il sonno",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q092",
+    "question": "Il cavallo ha bisogno di dormire per:",
+    "choices": [
+      "circa 10 oreal giorno",
+      "circa 7 ore al giorno",
+      "circa 5 oreal giorno",
+      "circa 2 ore al giorno §§§[OK]"
+    ],
+    "chapter": "Lezione 10 - Il sonno",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q093",
+    "question": "Un animale usato metaforicamente dal concetto di cronotipo è:",
+    "choices": [
+      "leone",
+      "allodola §§§[OK]",
+      "pipistrello",
+      "colomba"
+    ],
+    "chapter": "Lezione 10 - Il sonno",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q094",
+    "question": "Secondo ricerche recenti îl cronotipo:",
+    "choices": [
+      "varia con il contesto §§§[OK]",
+      "è distribuito equamente nella popolazione",
+      "caratterizza solo gli esseri umani",
+      "è influenzato dallo stile cognitivo"
+    ],
+    "chapter": "Lezione 10 - Il sonno",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q095",
+    "question": "La fase 1 del sonno è caratterizzata da:",
+    "choices": [
+      "onde alfa §§§[OK]",
+      "onde beta",
+      "onde delta",
+      "fusi del sonno"
+    ],
+    "chapter": "Lezione 10 - Il sonno",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q096",
+    "question": "I terrori notturni sono diversi dagli incubi perché:",
+    "choices": [
+      "sono meno disturbanti",
+      "sono più disturbanti",
+      "sono molto meno diffusi",
+      "la persona può alzarsi e muoversi e sembra sveglia §§§[OK]"
+    ],
+    "chapter": "Lezione 10 - Il sonno",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q097",
+    "question": "La \"sindrome della testa che esplode\":",
+    "choices": [
+      "è molto pericolosa",
+      "è presente in pazienti con disturbi psichiatrici",
+      "è sostanzialmente innocua §§§[OK]",
+      "è stata scoperta di recente"
+    ],
+    "chapter": "Lezione 10 - Il sonno",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q098",
+    "question": "La teoria di Attivazione-Sintesi è stata proposta da:",
+    "choices": [
+      "Hobson e McCarley §§§[OK]",
+      "Freud e Jung",
+      "Williams e Potter",
+      "Ploite Canter"
+    ],
+    "chapter": "Lezione 10 - Il sonno",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q099",
+    "question": "Per la teoria Attivazione-Sintesi i sogni:",
+    "choices": [
+      "sono privi di significato",
+      "sono indici di patologie",
+      "possono avere un significato ma è casuale §§§[OK]",
+      "dipendono da quanto si dorme"
+    ],
+    "chapter": "Lezione 10 - Il sonno",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q100",
+    "question": "La teoria Neurocognitiva del sogno sostiene che:",
+    "choices": [
+      "i sogni non sono simboli §§§[OK]",
+      "nei sogni entriamo in un mondo che è interamente nostro",
+      "solo gli esseri umani sognano",
+      "isogni sono più frequenti quando si è di malumore"
+    ],
+    "chapter": "Lezione 10 - Il sonno",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q101",
+    "question": "La codifica fonemica permette:",
+    "choices": [
+      "il ricordo delle caratteristiche uditive degli stimoli §§§[OK]",
+      "il ricordo del significato degli stimoli",
+      "il recupero delle caratteristiche uditive degli stimoli",
+      "il ricordo del significato degli stimoli"
+    ],
+    "chapter": "Lezione 11 - La memoria e i suoi sistemi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q102",
+    "question": "Atkinson e Shiffrin hanno teorizzato:",
+    "choices": [
+      "i processi della memoria",
+      "itre sistemi della memoria §§§[OK]",
+      "la differenza tra codifica fonemica e semantica",
+      "il concetto di falso ricordo"
+    ],
+    "chapter": "Lezione 11 - La memoria e i suoi sistemi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q103",
+    "question": "I processi della memoria sono codifica, immagazzinamento, recupero, oblio e:",
+    "choices": [
+      "associazione",
+      "rappresentazione",
+      "immaginazione",
+      "ritenzione §§§[OK]"
+    ],
+    "chapter": "Lezione 11 - La memoria e i suoi sistemi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q104",
+    "question": "La capacità di mantenere una quantità limitata di informazioni per circa 12 secondi è possibile grazie a:",
+    "choices": [
+      "sistema sensoriale",
+      "memoria a breve termine §§§[OK]",
+      "memoria a lungo termine",
+      "processo di immagazzinamento"
+    ],
+    "chapter": "Lezione 11 - La memoria e i suoi sistemi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q105",
+    "question": "La memoria a breve termine mantiene un numero di informazioni compreso tra:",
+    "choices": [
+      "4 e 7 §§§[OK]",
+      "5 e 9",
+      "4 e 9",
+      "2 e 5"
+    ],
+    "chapter": "Lezione 11 - La memoria e i suoi sistemi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q106",
+    "question": "Il WAIS Digit Span valuta:",
+    "choices": [
+      "la memoria sensoriale",
+      "la memoria iconica",
+      "la memoria a breve termine §§§[OK]",
+      "la memoria procedurale"
+    ],
+    "chapter": "Lezione 11 - La memoria e i suoi sistemi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q107",
+    "question": "Per gli effetti primacy e recency si ricordano:",
+    "choices": [
+      "le vicende più antiche o più recenti",
+      "gli eventi più importanti per la persona",
+      "le storie ascoltate da bambini",
+      "iprimie gli ultimi elementi di una lista §§§[OK]"
+    ],
+    "chapter": "Lezione 11 - La memoria e i suoi sistemi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q108",
+    "question": "L'interesse verso un argomento:",
+    "choices": [
+      "aumenta la possibilità di formare falsi ricordi §§§[OK]",
+      "diminuisce la possibilità di formare falsi ricordi",
+      "è associato all'incapacità di recupero",
+      "è associato a una migliore memoria iconica"
+    ],
+    "chapter": "Lezione 11 - La memoria e i suoi sistemi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q109",
+    "question": "I ricordi emotivi:",
+    "choices": [
+      "tendono a essere rimossi",
+      "tendono a essere evocati meno",
+      "spesso sono più duraturi §§§[OK]",
+      "tendonoa essere limitati"
+    ],
+    "chapter": "Lezione 11 - La memoria e i suoi sistemi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q110",
+    "question": "I ricordi veri rispetto ai falsi ricordi:",
+    "choices": [
+      "presentano meno dettagli",
+      "presentano poca definizione",
+      "sono più vividi §§§[OK]",
+      "nonhanno differenze"
+    ],
+    "chapter": "Lezione 11 - La memoria e i suoi sistemi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q111",
+    "question": "La memoria di lavoro ha a che fare con la memoria:",
+    "choices": [
+      "a lungo termine",
+      "ecoica",
+      "immaginativa",
+      "a breve termine §§§[OK]"
+    ],
+    "chapter": "Lezione 12 - La memoria di lavoro",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q112",
+    "question": "Due sistemi usati dalla memoria a breve termine per rafforzare i processi di codifica sono ripetizione e:",
+    "choices": [
+      "blumking",
+      "chunking §§§[OK]",
+      "spelling",
+      "fixing"
+    ],
+    "chapter": "Lezione 12 - La memoria di lavoro",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q113",
+    "question": "Un noto studioso della memoria di lavoro è stato:",
+    "choices": [
+      "Hitch §§§[OK]",
+      "Barth",
+      "Canter",
+      "Hudson"
+    ],
+    "chapter": "Lezione 12 - La memoria di lavoro",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q114",
+    "question": "La tecnica utilizzata da Baddeley e colleghi per studiare la memoria di lavoro comprendeva:",
+    "choices": [
+      "doppie informazioni",
+      "doppi compiti §§§[OK]",
+      "messaggi nascosti",
+      "contenuti persuasivi"
+    ],
+    "chapter": "Lezione 12 - La memoria di lavoro",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q115",
+    "question": "I magazzini della memoria di lavoro sono diretti:",
+    "choices": [
+      "dal centro di comando mentale",
+      "dalla volontà del soggetto",
+      "dall'esecutivo centrale §§§[OK]",
+      "dall'elaboratore principale"
+    ],
+    "chapter": "Lezione 12 - La memoria di lavoro",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q116",
+    "question": "Tra questi NON è un magazzino della memoria di lavoro:",
+    "choices": [
+      "cuscinetto episodico",
+      "centralina verbale §§§[OK]",
+      "taccuino visuo-spaziale",
+      "circuito fonologico"
+    ],
+    "chapter": "Lezione 12 - La memoria di lavoro",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q117",
+    "question": "Uno dei magazzini della memoria di lavoro permette di recuperare informazioni dalla memoria a lungo",
+    "choices": [
+      "è vero §§§[OK]",
+      "è falso",
+      "la frase non ha senso",
+      "è vero solo in parte"
+    ],
+    "chapter": "Lezione 12 - La memoria di lavoro",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q118",
+    "question": "Baddeley rischiò un incidente stradale; ciò lo portò a riflettere sulle informazioni:",
+    "choices": [
+      "visuo-spaziali",
+      "uditive",
+      "iconiche",
+      "motorie §§§[OK]"
+    ],
+    "chapter": "Lezione 12 - La memoria di lavoro",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q119",
+    "question": "Il concetto di \"scrivano interno\" come ulteriore magazzino per la memoria di lavoro fu proposto da:",
+    "choices": [
+      "Baddeley",
+      "Bratch",
+      "Logie §§§[OK]",
+      "Atkinson"
+    ],
+    "chapter": "Lezione 12 - La memoria di lavoro",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q120",
+    "question": "Secondo la review di Oberauer, qualcosa può essere concettualizzata come risorsa o come meccanismo",
+    "choices": [
+      "memoria di lavoro",
+      "memoria in generale",
+      "attenzione §§§[OK]",
+      "intenzione"
+    ],
+    "chapter": "Lezione 12 - La memoria di lavoro",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q121",
+    "question": "L'area cerebrale implicata maggiormente nella cognizione spaziale è:",
+    "choices": [
+      "la corteccia frontale",
+      "l'amigdala",
+      "il giro fusiforme",
+      "l'ippocampo §§§[OK]"
+    ],
+    "chapter": "Lezione 13 - Memoria e cognizione spaziale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q122",
+    "question": "La capacità di produrre mappe mentali fa riferimento alla:",
+    "choices": [
+      "gestione delle emozioni",
+      "imagery §§§[OK]",
+      "memoria a lungo termine",
+      "attenzione divisa"
+    ],
+    "chapter": "Lezione 13 - Memoria e cognizione spaziale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q123",
+    "question": "Per orientarsi nello spazio è necessario:",
+    "choices": [
+      "osservare bene i dintorni",
+      "conoscere la propria posizione nell'ambiente",
+      "ascoltare i consigli degli altri §§§[OK]",
+      "attivare le capacità di visualizzazione mentale"
+    ],
+    "chapter": "Lezione 13 - Memoria e cognizione spaziale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q124",
+    "question": "La posizione degli elementi nell'ambiente prescinde da quella dell'osservatore; così funziona il sistema:",
+    "choices": [
+      "egocentrico",
+      "di ragionamento",
+      "dell'intuzione",
+      "allocentrico §§§[OK]"
+    ],
+    "chapter": "Lezione 13 - Memoria e cognizione spaziale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q125",
+    "question": "Oltre allo scrivano interno, il taccuino visuo-spaziale si compone di:",
+    "choices": [
+      "visual scratchpad",
+      "visual loop",
+      "visual cache §§§[OK]",
+      "visual scribe"
+    ],
+    "chapter": "Lezione 13 - Memoria e cognizione spaziale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q126",
+    "question": "Un test per matrici valuta la componente;",
+    "choices": [
+      "visiva §§§[OK]",
+      "spaziale",
+      "visuo-spaziale",
+      "motivazionale"
+    ],
+    "chapter": "Lezione 13 - Memoria e cognizione spaziale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q127",
+    "question": "Gli animali coinvolti negli esperimenti di Tolman erano:",
+    "choices": [
+      "cani",
+      "topi §§§[OK]",
+      "pipistrelli",
+      "scimpanzè"
+    ],
+    "chapter": "Lezione 13 - Memoria e cognizione spaziale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q128",
+    "question": "I due filoni di ricerca sulla cognizione spaziale sono:",
+    "choices": [
+      "ricerca su come ci orientiamo e su come manteniamo informazioni spaziali §§§[OK]",
+      "ricerca su come ci orientiamo e su come ci rappresentiamo lo spazio",
+      "ricerca su come ci rappresentiamo lo spazio e su come manteniamo informazioni spaziali",
+      "ricerca su come ci rappresentiamo lo spazio e su come utilizziamo le mappe nel mondo reale"
+    ],
+    "chapter": "Lezione 13 - Memoria e cognizione spaziale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q129",
+    "question": "I landmark si possono dividere in 'di mantenimento' e:",
+    "choices": [
+      "motivazionali",
+      "decisionali §§§[OK]",
+      "astratti",
+      "dinamici"
+    ],
+    "chapter": "Lezione 13 - Memoria e cognizione spaziale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q130",
+    "question": "Il mental frame syncing è il processo per cui:",
+    "choices": [
+      "sincronizziamo la nostra mente con quella degli altri a livello di informazioni spaziali",
+      "ci orientiamo nel modo corretto",
+      "trasformiamo rappresentazioni allocentriche in egocentriche §§§[OK]",
+      "capiamo le rappresentazioni visuo-spaziali di qualcun altro"
+    ],
+    "chapter": "Lezione 13 - Memoria e cognizione spaziale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q131",
+    "question": "I contenuti nella memoria a lungo termine:",
+    "choices": [
+      "sono dimenticati con il passare del tempo",
+      "possono durare tutta la vita §§§[OK]",
+      "siapprendono tramite l'uso delle mnemotecniche",
+      "tendonoa essere falsi ricordi"
+    ],
+    "chapter": "Lezione 14 - Memoria, strategie di recupero e oblio",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q132",
+    "question": "Tra le seguenti NON è una delle aree delle strategie di recupero della memoria:",
+    "choices": [
+      "organizzazione",
+      "consolidamento §§§[OK]",
+      "visual imagery",
+      "mappe mentali"
+    ],
+    "chapter": "Lezione 14 - Memoria, strategie di recupero e oblio",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q133",
+    "question": "In riferimento alla mamoria, Paivio ha dimostrato:",
+    "choices": [
+      "chele persone ricordano meglio parole emotive",
+      "chele persone ricordano meglio parole brevi",
+      "chele persone ricordano meglio parole che hanno sentito spesso",
+      "chele persone ricordano meglio parole concrete §§§[OK]"
+    ],
+    "chapter": "Lezione 14 - Memoria, strategie di recupero e oblio",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q134",
+    "question": "Il processamento semantico:",
+    "choices": [
+      "fa riferimento a un modo secondario di rappresentare il materiale verbale nella memoria a lungo termine",
+      "fa riferimento a un modo secondario di funzionamento dell'oblio",
+      "fa riferimento almodo dominante di rappresentare il materiale verbale nella memoria a lungo termine §§§[OK]",
+      "fa riferimento al modo dominante di funzionamento dell'oblio"
+    ],
+    "chapter": "Lezione 14 - Memoria, strategie di recupero e oblio",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q135",
+    "question": "Lo studio che ha mostrato il ruolo del processo semantico è stato condotto da:",
+    "choices": [
+      "Craik §§§[OK]",
+      "Tulving",
+      "Baddeley",
+      "Russell"
+    ],
+    "chapter": "Lezione 14 - Memoria, strategie di recupero e oblio",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q136",
+    "question": "Più profondamente elaboriamo un elemento nella fase di input, meglio sarà ricordato; ciò viene sostenuto",
+    "choices": [
+      "del processamento semantico",
+      "deilivelli di elaborazione §§§[OK]",
+      "della profondità della memoria",
+      "dell'inconscio mnemonico"
+    ],
+    "chapter": "Lezione 14 - Memoria, strategie di recupero e oblio",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q137",
+    "question": "Rogers e colleghi hanno studiato la codifica:",
+    "choices": [
+      "spaziale",
+      "semantica",
+      "autoreferenziale §§§[OK]",
+      "emotiva"
+    ],
+    "chapter": "Lezione 14 - Memoria, strategie di recupero e oblio",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q138",
+    "question": "La mnemotecnica dei loci era utilizzata da:",
+    "choices": [
+      "Socrate",
+      "Giulio Cesare",
+      "Cicerone §§§[OK]",
+      "Tolomeo"
+    ],
+    "chapter": "Lezione 14 - Memoria, strategie di recupero e oblio",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q139",
+    "question": "La teoria dell'oblio che tendenzialmente gode di maggior supporto è quella:",
+    "choices": [
+      "dell'interferenza §§§[OK]",
+      "deltempo di codifica",
+      "del declino",
+      "della dimenticanza"
+    ],
+    "chapter": "Lezione 14 - Memoria, strategie di recupero e oblio",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q140",
+    "question": "Il caso Shereshevsky è stato presentato da:",
+    "choices": [
+      "Sacks",
+      "Luria §§§[OK]",
+      "Freud",
+      "Ramanchadran"
+    ],
+    "chapter": "Lezione 14 - Memoria, strategie di recupero e oblio",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q141",
+    "question": "Secondo la definizione della dichiarazione \"Mainstream Science on Intelligence\", l'intelligenza comprende",
+    "choices": [
+      "leggere velocemente",
+      "ricordare molte informazioni",
+      "pensare in maniera astratta §§§[OK]",
+      "osservare con attenzione"
+    ],
+    "chapter": "Lezione 15 - L'intelligenza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q142",
+    "question": "\"L'uomo è un animale razionale\" è stato detto da:",
+    "choices": [
+      "Socrate",
+      "Protagora",
+      "Aristotele §§§[OK]",
+      "Kung-Sun Lung"
+    ],
+    "chapter": "Lezione 15 - L'intelligenza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q143",
+    "question": "Uno psicologo francese che si interessò alla misurazione dell’intelligenza fu:",
+    "choices": [
+      "Simon §§§[OK]",
+      "Delacroix",
+      "Charcot",
+      "Dubois"
+    ],
+    "chapter": "Lezione 15 - L'intelligenza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q144",
+    "question": "A importare negli Stati Uniti la misurazione dell'intelligenza fu:",
+    "choices": [
+      "James",
+      "Harvard",
+      "Blumenthal",
+      "Terman §§§[OK]"
+    ],
+    "chapter": "Lezione 15 - L'intelligenza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q145",
+    "question": "La concezione dei primi studiosi dell’intelligenza la leggeva soprattutto nei termini di:",
+    "choices": [
+      "competenze adattative",
+      "competenze scolastiche §§§[OK]",
+      "capacità fisiche",
+      "conoscenze culturali"
+    ],
+    "chapter": "Lezione 15 - L'intelligenza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q146",
+    "question": "Tra i problemi della somministrazione nella misurazione dell'intelligenza negli immigrati negli Stati Uniti",
+    "choices": [
+      "fattori culturali",
+      "il contesto della somministrazione",
+      "i tratti di personalità §§§[OK]",
+      "lalingua dei test"
+    ],
+    "chapter": "Lezione 15 - L'intelligenza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q147",
+    "question": "Il quoziente intellettivo di William James Sidis era:",
+    "choices": [
+      "tra100e 150",
+      "tra150e 200",
+      "tra 2006250",
+      "superiore a 250 §§§[OK]"
+    ],
+    "chapter": "Lezione 15 - L'intelligenza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q148",
+    "question": "I \"bambini prodigio\" e le loro problematiche educative sono stati studiati da:",
+    "choices": [
+      "Bislagh",
+      "James",
+      "Winner §§§[OK]",
+      "Baxter"
+    ],
+    "chapter": "Lezione 15 - L'intelligenza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q149",
+    "question": "Il rischio da evitare nello studio dell'intelligenza animale è:",
+    "choices": [
+      "l'antropomorfismo",
+      "l'antropocentrismo §§§[OK]",
+      "l'antropologismo",
+      "l'antropofilismo"
+    ],
+    "chapter": "Lezione 15 - L'intelligenza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q150",
+    "question": "Stenhouse ha definito l'intelligenza come:",
+    "choices": [
+      "una facoltà cognitiva",
+      "uncostrutto teorico",
+      "un insieme di competenze e conoscenze",
+      "un comportamento adattivo §§§[OK]"
+    ],
+    "chapter": "Lezione 15 - L'intelligenza",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q151",
+    "question": "Tra le seguenti NON è un componente dell'intelligenza secondo Thurstone:",
+    "choices": [
+      "fluenza verbale",
+      "risposta motoria §§§[OK]",
+      "abilità spaziali",
+      "velocità di percezione"
+    ],
+    "chapter": "Lezione 16 - Teorie delle Intelligenze Multiple e loro criticità",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q152",
+    "question": "Guilford è conosciuto anche peri suoi contributi allo studio:",
+    "choices": [
+      "dei processi di categorizzazione sociale",
+      "della percezione",
+      "del dolore",
+      "della creatività §§§[OK]"
+    ],
+    "chapter": "Lezione 16 - Teorie delle Intelligenze Multiple e loro criticità",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q153",
+    "question": "Nel modello di Guilford i componenti dell'intelligenza emergono dall'interazione tra:",
+    "choices": [
+      "prodotti, processi e operazioni",
+      "operazioni, contenuti e processi",
+      "operazioni, prodotti e contenuti §§§[OK]",
+      "processi, contenuti e prodotti"
+    ],
+    "chapter": "Lezione 16 - Teorie delle Intelligenze Multiple e loro criticità",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q154",
+    "question": "Tra i seguenti è un sotto-processo per Guilford:",
+    "choices": [
+      "contenuto simbolico §§§[OK]",
+      "contenuto astratto",
+      "memorizzazione",
+      "produzione di unità"
+    ],
+    "chapter": "Lezione 16 - Teorie delle Intelligenze Multiple e loro criticità",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q155",
+    "question": "Tra queste NON è una intelligenza postulata da Gardner:",
+    "choices": [
+      "spaziale",
+      "cinestesica",
+      "astratta §§§[OK]",
+      "logico-matematica"
+    ],
+    "chapter": "Lezione 16 - Teorie delle Intelligenze Multiple e loro criticità",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q156",
+    "question": "Dopo ulteriore teorizzazione, le intelligenze postulate da Gardner diventano:",
+    "choices": [
+      "sei",
+      "otto",
+      "nove §§§[OK]",
+      "undici"
+    ],
+    "chapter": "Lezione 16 - Teorie delle Intelligenze Multiple e loro criticità",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q157",
+    "question": "La visione di Gardner ha avuto un certo successo in ambito:",
+    "choices": [
+      "creativo",
+      "educativo §§§[OK]",
+      "militare",
+      "commerciale"
+    ],
+    "chapter": "Lezione 16 - Teorie delle Intelligenze Multiple e loro criticità",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q158",
+    "question": "Come suo limite intrinseco, la teoria delle intelligenze multiple confonde l'intelligenza con:",
+    "choices": [
+      "il talento §§§[OK]",
+      "la personalità",
+      "ilragionamento",
+      "l'atteggiamento"
+    ],
+    "chapter": "Lezione 16 - Teorie delle Intelligenze Multiple e loro criticità",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q159",
+    "question": "Uno dei principali critici di Gardner è:",
+    "choices": [
+      "Williams",
+      "Willingham §§§[OK]",
+      "Willard",
+      "Wilhelm"
+    ],
+    "chapter": "Lezione 16 - Teorie delle Intelligenze Multiple e loro criticità",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q160",
+    "question": "Un limite applicativo della teoria di Gardner emerge condiderando la ricerca:",
+    "choices": [
+      "sull'influenza sociale",
+      "sulla zona di sviluppo prossimale",
+      "sulle abilità di lettura §§§[OK]",
+      "sulla pedagogia ottocentesca"
+    ],
+    "chapter": "Lezione 16 - Teorie delle Intelligenze Multiple e loro criticità",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q161",
+    "question": "Dal punto di vista della psicologia \"intelligenza artificiale\" è un nome:",
+    "choices": [
+      "esatto",
+      "parziale",
+      "fuorviante §§§[OK]",
+      "complesso"
+    ],
+    "chapter": "Lezione 17 - Intelligenza Artificiale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q162",
+    "question": "Fattivamente le Intelligenze Artificiali sono:",
+    "choices": [
+      "robot",
+      "algoritmi §§§[OK]",
+      "computer",
+      "ologrammi"
+    ],
+    "chapter": "Lezione 17 - Intelligenza Artificiale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q163",
+    "question": "Notoriamente Turing ha sviluppato:",
+    "choices": [
+      "una teoria",
+      "un esperimento",
+      "un test §§§[OK]",
+      "un poema"
+    ],
+    "chapter": "Lezione 17 - Intelligenza Artificiale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q164",
+    "question": "Oggi sappiamo che la proposta di Turing è:",
+    "choices": [
+      "inaffidabile §§§[OK]",
+      "affidabile",
+      "parziale",
+      "scientificamente sostanziata"
+    ],
+    "chapter": "Lezione 17 - Intelligenza Artificiale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q165",
+    "question": "IL noto workshop che è considerato origine della IA come disciplina si è svolto a:",
+    "choices": [
+      "Harvard",
+      "Dartmouth §§§[OK]",
+      "Cambridge",
+      "Roma"
+    ],
+    "chapter": "Lezione 17 - Intelligenza Artificiale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q166",
+    "question": "Tra i proponenti del noto workshop che ha dato origine alla IA NON vi fu:",
+    "choices": [
+      "McCharthy",
+      "Rochester",
+      "Minsky",
+      "Nash §§§[OK]"
+    ],
+    "chapter": "Lezione 17 - Intelligenza Artificiale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q167",
+    "question": "Il dispositivo presentato da Newell e Simon si chiamava:",
+    "choices": [
+      "logic theorist §§§[OK]",
+      "elaboratore complesso",
+      "elaboratore logico",
+      "symbolic theorist"
+    ],
+    "chapter": "Lezione 17 - Intelligenza Artificiale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q168",
+    "question": "Tra i seguenti è un esempio di IA forte:",
+    "choices": [
+      "ChatGPT",
+      "Amazon IA",
+      "HAL 9000 dal film \"2001 Odissea nello Spazio\" §§§[OK]",
+      "Replika"
+    ],
+    "chapter": "Lezione 17 - Intelligenza Artificiale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q169",
+    "question": "Il primo “Inverno della IA” si è svolto tra gli anni:",
+    "choices": [
+      "76-82",
+      "74-80 §§§[OK]",
+      "81-95",
+      "87-93"
+    ],
+    "chapter": "Lezione 17 - Intelligenza Artificiale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q170",
+    "question": "La maggior parte delle IA oggi si basano su;",
+    "choices": [
+      "manipolazione dei simboli",
+      "machine learning §§§[OK]",
+      "programmazione quantica",
+      "programmazione flash"
+    ],
+    "chapter": "Lezione 17 - Intelligenza Artificiale",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q171",
+    "question": "La motivazione orienta:",
+    "choices": [
+      "il comportamento §§§[OK]",
+      "la cognizione",
+      "il sogno",
+      "i bisogni"
+    ],
+    "chapter": "Lezione 18 - La motivazione: i bisogni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q172",
+    "question": "La motivazione come obiettivo è stata studiata in particolare:",
+    "choices": [
+      "dal cognitivismo §§§[OK]",
+      "dal comportamentismo",
+      "dal movimento umanista",
+      "dalla filosofia esistenzialista"
+    ],
+    "chapter": "Lezione 18 - La motivazione: i bisogni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q173",
+    "question": "La self-determination theory è stata proposta da:",
+    "choices": [
+      "Freud",
+      "Ryan §§§[OK]",
+      "Bandura",
+      "Zimbardo"
+    ],
+    "chapter": "Lezione 18 - La motivazione: i bisogni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q174",
+    "question": "Il concetto di omeostasi si riferisce:",
+    "choices": [
+      "a un meccanismo di pensiero",
+      "agli istinti degli animali",
+      "al concetto di equilibrio §§§[OK]",
+      "alle emozioni"
+    ],
+    "chapter": "Lezione 18 - La motivazione: i bisogni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q175",
+    "question": "In riferimento ai bisogni ha parlato di omeostasi:",
+    "choices": [
+      "Skinner",
+      "Thorndike",
+      "Baxter",
+      "Hull §§§[OK]"
+    ],
+    "chapter": "Lezione 18 - La motivazione: i bisogni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q176",
+    "question": "La \"b” in B-motivation sta per:",
+    "choices": [
+      "benessere",
+      "bambino",
+      "being §§§[OK]",
+      "belief"
+    ],
+    "chapter": "Lezione 18 - La motivazione: i bisogni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q177",
+    "question": "Adam Smith ha proposto l'esempio:",
+    "choices": [
+      "del cibo di diverse culture",
+      "delle scarpe di cuoio §§§[OK]",
+      "dei costumi tradizionali",
+      "delle culture lente"
+    ],
+    "chapter": "Lezione 18 - La motivazione: i bisogni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q178",
+    "question": "La grelina:",
+    "choices": [
+      "sopprime l'appetito",
+      "stimola l'appetito §§§[OK]",
+      "elicita la sensazione di sazietà",
+      "inibisce la fame dopo lungo tempo di digiuno"
+    ],
+    "chapter": "Lezione 18 - La motivazione: i bisogni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q179",
+    "question": "L'idea che la fame può essere considerata un'emozione è stata proposta da Al-Shawaf nel:",
+    "choices": [
+      "1985",
+      "1991",
+      "2004",
+      "2016 §§§[OK]"
+    ],
+    "chapter": "Lezione 18 - La motivazione: i bisogni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q180",
+    "question": "La fame risulta alterata da psicopatologie, per esempio da:",
+    "choices": [
+      "disturbo post-traumatico da stress",
+      "disturbo da dissociazione dell'identità",
+      "disturbi d'ansia",
+      "anoressia §§§[OK]"
+    ],
+    "chapter": "Lezione 18 - La motivazione: i bisogni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q181",
+    "question": "Rispetto a altre concezioni della motivazione, l'obiettivo o goal può essere:",
+    "choices": [
+      "inconscio",
+      "descritto §§§[OK]",
+      "analizzato",
+      "quantificato"
+    ],
+    "chapter": "Lezione 19 - La Motivazione: Obiettivi e \"Nutrimenti\"",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q182",
+    "question": "I domini di interessi per gli obiettivi sono stati proposti da:",
+    "choices": [
+      "Vancouver",
+      "Vernon",
+      "Winell §§§[OK]",
+      "Wader"
+    ],
+    "chapter": "Lezione 19 - La Motivazione: Obiettivi e \"Nutrimenti\"",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q183",
+    "question": "Tra i seguenti sono dimensioni degli obiettivi:",
+    "choices": [
+      "specificità e range §§§[OK]",
+      "importanza e chiarezza",
+      "difficoltà e livellazione",
+      "consapevolezza ed emozione"
+    ],
+    "chapter": "Lezione 19 - La Motivazione: Obiettivi e \"Nutrimenti\"",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q184",
+    "question": "Il fenomeno di unconscious goal pursuit riguarda;",
+    "choices": [
+      "miero-obiettivi inconsci §§§[OK]",
+      "la quantità di informazioni inconscia rappresentata da un goal",
+      "il fatto che la maggior parte dei goal sono inconsci",
+      "ilfatto che gli obiettivi operano sempre al di sopra della consapevolezza"
+    ],
+    "chapter": "Lezione 19 - La Motivazione: Obiettivi e \"Nutrimenti\"",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q185",
+    "question": "Le evidenze sull'unconscious goal pursuit sono state revisionate da:",
+    "choices": [
+      "Bandura e Procter",
+      "Custers e Aarts §§§[OK]",
+      "Williams e Winell",
+      "Ryane Deci"
+    ],
+    "chapter": "Lezione 19 - La Motivazione: Obiettivi e \"Nutrimenti\"",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q186",
+    "question": "Interventi in area di implementation intentions riguardano piani d'azione del tipo:",
+    "choices": [
+      "before/after",
+      "soon/later",
+      "and/or",
+      "iffthen §§§[OK]"
+    ],
+    "chapter": "Lezione 19 - La Motivazione: Obiettivi e \"Nutrimenti\"",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q187",
+    "question": "Ryan e Deci hanno iniziato a studiare la motivazione a partire dagli anni:",
+    "choices": [
+      "Ottanta",
+      "Novanta",
+      "Sessanta",
+      "Settanta §§§[OK]"
+    ],
+    "chapter": "Lezione 19 - La Motivazione: Obiettivi e \"Nutrimenti\"",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q188",
+    "question": "Tra i seguenti NON è uno dei \"nutriment\":",
+    "choices": [
+      "competence",
+      "relatedness",
+      "interest §§§[OK]",
+      "autonomy"
+    ],
+    "chapter": "Lezione 19 - La Motivazione: Obiettivi e \"Nutrimenti\"",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q189",
+    "question": "La sigla IMAC riguarda:",
+    "choices": [
+      "la motivazione intrinseca §§§[OK]",
+      "la motivazione estrinseca",
+      "la motivazione external regulation",
+      "la motivazione introjected regulation"
+    ],
+    "chapter": "Lezione 19 - La Motivazione: Obiettivi e \"Nutrimenti\"",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q190",
+    "question": "La motivazione estrinseca può essere legata alla volontà di migliorarsi e di crescere, Si tratta di:",
+    "choices": [
+      "IMES",
+      "integrated regulation",
+      "introjected regulation",
+      "identified regulation §§§[OK]"
+    ],
+    "chapter": "Lezione 19 - La Motivazione: Obiettivi e \"Nutrimenti\"",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q191",
+    "question": "Il flow può essere associato al concetto di:",
+    "choices": [
+      "stress",
+      "noia",
+      "assorbimento §§§[OK]",
+      "interesse"
+    ],
+    "chapter": "Lezione 20 - Il flow",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q192",
+    "question": "Csikszentmihalyi ha iniziato a studiare il flow nel:",
+    "choices": [
+      "1965",
+      "1985",
+      "1995",
+      "1975 §§§[OK]"
+    ],
+    "chapter": "Lezione 20 - Il flow",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q193",
+    "question": "Nel diagramma di Csikszentmihalyi, alte sfide e basse abilità risultano in:",
+    "choices": [
+      "flow",
+      "noia",
+      "rilassamento",
+      "ansia §§§[OK]"
+    ],
+    "chapter": "Lezione 20 - Il flow",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q194",
+    "question": "Tra le seguenti NON è una caratteristica del flow:",
+    "choices": [
+      "perdita di autocoscienza",
+      "alterazione del tempo",
+      "passione per l'attività §§§[OK]",
+      "concentrazione sul compito"
+    ],
+    "chapter": "Lezione 20 - Il flow",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q195",
+    "question": "IL flow trova piacere e motivazione in sé stesso; ciò si lega al concetto di:",
+    "choices": [
+      "fusione tra azione e consapevolezza",
+      "emozione motivante",
+      "presenza di feedback non ambiguo",
+      "esperienza autotelica §§§[OK]"
+    ],
+    "chapter": "Lezione 20 - Il flow",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q196",
+    "question": "L'ipotesi dell'equilibrio tra sfide e abilità è stata in parte rivista da:",
+    "choices": [
+      "Csikszentmihalyi",
+      "Lovolle Vitterso §§§[OK]",
+      "Peifer ed Engeser",
+      "Harmate Umell"
+    ],
+    "chapter": "Lezione 20 - Il flow",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q197",
+    "question": "Quale tra i seguenti tratti di personalità NON è associato all'esperienza di flow:",
+    "choices": [
+      "estroversione",
+      "bisogno di cognizione §§§[OK]",
+      "apertura all'esperienza",
+      "locusof control interno"
+    ],
+    "chapter": "Lezione 20 - Il flow",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q198",
+    "question": "I soggetti ottimisti:",
+    "choices": [
+      "sono più predisposti a provare esperienze di flow §§§[OK]",
+      "provano raramente esperienze di flow",
+      "provano emozioni associate all'esperienza di flow",
+      "provano più esperienze di flow se sono femmine"
+    ],
+    "chapter": "Lezione 20 - Il flow",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q199",
+    "question": "Le ricerche neurofisiologiche hanno riscontrato riguardo allo stato di flow:",
+    "choices": [
+      "ridotta attività in tutto l'encefalo",
+      "maggiore attività nelle aree occipitali",
+      "minore attività nella corteccia prefrontale",
+      "maggiore attività nella corteccia somatosensoriale §§§[OK]"
+    ],
+    "chapter": "Lezione 20 - Il flow",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q200",
+    "question": "L'ipotesi ipofrontale del flow è stata proposta da:",
+    "choices": [
+      "Dietrich §§§[OK]",
+      "Csikszentmihalyi",
+      "Vitterso",
+      "Simlesa"
+    ],
+    "chapter": "Lezione 20 - Il flow",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q201",
+    "question": "La psicologia positiva è nata ufficialmente intorno all'anno:",
+    "choices": [
+      "1980",
+      "1990",
+      "2000 §§§[OK]",
+      "2010"
+    ],
+    "chapter": "Lezione 21 - La psicologia positiva e del benessere",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q202",
+    "question": "Martin Seligman è stato presidente della American Psychological association nel:",
+    "choices": [
+      "1988",
+      "1998 §§§[OK]",
+      "2008",
+      "2018"
+    ],
+    "chapter": "Lezione 21 - La psicologia positiva e del benessere",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q203",
+    "question": "Il primo a usare l'espressione \"psicologia positiva\" fu:",
+    "choices": [
+      "Seligman",
+      "Csiksentmihalyi",
+      "James",
+      "Maslow §§§[OK]"
+    ],
+    "chapter": "Lezione 21 - La psicologia positiva e del benessere",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q204",
+    "question": "Secondo Seligman, la psicologia si concentrava eccessivamente sul concetto di:",
+    "choices": [
+      "malattia mentale §§§[OK]",
+      "stress",
+      "emozione",
+      "memoria visiva"
+    ],
+    "chapter": "Lezione 21 - La psicologia positiva e del benessere",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q205",
+    "question": "La cosiddetta \"good life\" secondo la psicologia positiva è associata al costrutto di:",
+    "choices": [
+      "stress",
+      "valore",
+      "inconscio",
+      "flow §§§[OK]"
+    ],
+    "chapter": "Lezione 21 - La psicologia positiva e del benessere",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q206",
+    "question": "La \"pleasant life\" per la psicologia positiva viene anche chiamata:",
+    "choices": [
+      "via eudaimonica",
+      "via morale",
+      "via edonica §§§[OK]",
+      "via psicoanalitica"
+    ],
+    "chapter": "Lezione 21 - La psicologia positiva e del benessere",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q207",
+    "question": "Quale tra questi personaggi storici potrebbe essere un buon esempio di \"vita con significato\":",
+    "choices": [
+      "Madre Teresa §§§[OK]",
+      "Attila",
+      "Caligola",
+      "Pablo Picasso"
+    ],
+    "chapter": "Lezione 21 - La psicologia positiva e del benessere",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q208",
+    "question": "Quale tra i seguenti NON è un componente dell'acronimo PERMA:",
+    "choices": [
+      "positive emotion",
+      "meaning",
+      "attainment §§§[OK]",
+      "relationships"
+    ],
+    "chapter": "Lezione 21 - La psicologia positiva e del benessere",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q209",
+    "question": "IL ruolo della negatività come critica alla psicologia positiva è stato evidenziato da:",
+    "choices": [
+      "Seligman",
+      "Bowdoin",
+      "Held §§§[OK]",
+      "Petter"
+    ],
+    "chapter": "Lezione 21 - La psicologia positiva e del benessere",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q210",
+    "question": "Il progetto promosso dall'esercito degli Stati Uniti e che si basa sulla psicologia positiva si chiama:",
+    "choices": [
+      "ddf",
+      "csf §§§[OK]",
+      "prf",
+      "fin"
+    ],
+    "chapter": "Lezione 21 - La psicologia positiva e del benessere",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q211",
+    "question": "In psicologia sociale una visione molto limitata dell'intenzione è fornita da:",
+    "choices": [
+      "Zimbardo e Jhonson",
+      "Bandura e Mills",
+      "Fishbeine Ajzen §§§[OK]",
+      "Schatere Festinger"
+    ],
+    "chapter": "Lezione 22 - L'intenzione tra filosofia e neuroscienze",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q212",
+    "question": "Si sono occupati di intenzione i filosofi della;",
+    "choices": [
+      "Scolastica §§§[OK]",
+      "Patristica",
+      "Teologica",
+      "Apologetica"
+    ],
+    "chapter": "Lezione 22 - L'intenzione tra filosofia e neuroscienze",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q213",
+    "question": "Per Condillac, Hume e Wegner l'intenzione può essere definita come:",
+    "choices": [
+      "una spinta ad agire",
+      "la rappresentazione dell'azione",
+      "l'energia che dà origine alle azioni",
+      "la sensazione che sentiamo quando agiamo §§§[OK]"
+    ],
+    "chapter": "Lezione 22 - L'intenzione tra filosofia e neuroscienze",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q214",
+    "question": "Il dibattito sulla natura dell'azione degli anni Cinquanta vide protagonisti:",
+    "choices": [
+      "Peirce e Dewey",
+      "Sartre e Heidegger",
+      "Comte e James",
+      "Davidson e Anscombe §§§[OK]"
+    ],
+    "chapter": "Lezione 22 - L'intenzione tra filosofia e neuroscienze",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q215",
+    "question": "I primi esperimenti di Libet si collocano principalmente negli anni:",
+    "choices": [
+      "Cinquanta",
+      "Sessanta",
+      "Settanta §§§[OK]",
+      "Ottanta"
+    ],
+    "chapter": "Lezione 22 - L'intenzione tra filosofia e neuroscienze",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q216",
+    "question": "L'oscilloscope clock era:",
+    "choices": [
+      "unateoria di Libet",
+      "unlibro di Libet",
+      "ilnome del laboratorio di Libet",
+      "uno strumento di ricerca §§§[OK]"
+    ],
+    "chapter": "Lezione 22 - L'intenzione tra filosofia e neuroscienze",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q217",
+    "question": "Libet rimase turbato dai risultati dei suoi esperimenti perché:",
+    "choices": [
+      "si rese conto di non aver trattato eticamente i partecipanti",
+      "mettevano in dubbio il concetto di libero arbitrio §§§[OK]",
+      "mettevano in dubbio l'uguaglianza tra gli esseri umani",
+      "erano stati manomessi"
+    ],
+    "chapter": "Lezione 22 - L'intenzione tra filosofia e neuroscienze",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q218",
+    "question": "Gli esperimenti di Haggard e colleghi hanno portato a identificare il fenomeno di:",
+    "choices": [
+      "intentional binding §§§[OK]",
+      "intentional bidding",
+      "intentional budding",
+      "intentional bending"
+    ],
+    "chapter": "Lezione 22 - L'intenzione tra filosofia e neuroscienze",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q219",
+    "question": "Searle ha distinto tra intenzione precedente e intenzione:",
+    "choices": [
+      "prossimale",
+      "cognitiva",
+      "in-azione §§§[OK]",
+      "fisica"
+    ],
+    "chapter": "Lezione 22 - L'intenzione tra filosofia e neuroscienze",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q220",
+    "question": "Un uomo che gioca a tennis ha un crampo improvviso e la sua mano non si muove come desiderava,",
+    "choices": [
+      "nessuna ovvero tutte le intenzioni sono state soddisfatte",
+      "motoria §§§[OK]",
+      "prossimale",
+      "comunicativa"
+    ],
+    "chapter": "Lezione 22 - L'intenzione tra filosofia e neuroscienze",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q221",
+    "question": "La trasformazione in malattia cronica rende necessario:",
+    "choices": [
+      "trattamenti più efficaci",
+      "considerare gli aspetti fisici e psicologici del paziente",
+      "focalizzarsi soprattutto sugli aspetti fisici del paziente §§§[OK]",
+      "focalizzarsi soprattutto sugli aspetti psicologici del paziente"
+    ],
+    "chapter": "Lezione 23 - La Motivazione nella Psicologia della Salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q222",
+    "question": "La psicologia della Salute nasce:",
+    "choices": [
+      "traglianni'50 e '60 §§§[OK]",
+      "negli anni '30",
+      "haorigini lontane",
+      "negli anni '20"
+    ],
+    "chapter": "Lezione 23 - La Motivazione nella Psicologia della Salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q223",
+    "question": "Il modello biopsicosociale sostiene che:",
+    "choices": [
+      "i fattori sociali sono più importanti nel determinare la salute e malattia",
+      "ifattori biologici sono più importanti nel determinare la salute e malattia",
+      "ifattori bio psico e socio sono tutti importanti nel determinare la salute e malattia §§§[OK]",
+      "ifattori psicologici sono più importanti nel determinare la salute e malattia"
+    ],
+    "chapter": "Lezione 23 - La Motivazione nella Psicologia della Salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q224",
+    "question": "I1 modello biopsicosociale:",
+    "choices": [
+      "sostiene che mente e corpo siano indipendenti nella salute",
+      "prende in considerazione solo la mente",
+      "prende in considerazione solo il corpo",
+      "prende in considerazione mente e corpo §§§[OK]"
+    ],
+    "chapter": "Lezione 23 - La Motivazione nella Psicologia della Salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q225",
+    "question": "Il Patient Engagement:",
+    "choices": [
+      "è un processo statico",
+      "riguarda il reclutamento dei pazienti nei trattamenti",
+      "riguarda il processo di cura",
+      "è un processo psicosociale multidimensionale §§§[OK]"
+    ],
+    "chapter": "Lezione 23 - La Motivazione nella Psicologia della Salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q226",
+    "question": "Il Patient Engagement:",
+    "choices": [
+      "prevede 4 posizioni incrementali §§§[OK]",
+      "prevede 6 posizioni incrementali",
+      "prevede2 posizioni incrementali",
+      "prevede 10 posizioni incrementali"
+    ],
+    "chapter": "Lezione 23 - La Motivazione nella Psicologia della Salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q227",
+    "question": "Lo shared decision making prevede:",
+    "choices": [
+      "chel paziente prenda decisioni da solo",
+      "che il paziente sia coinvolto nella presa di decisioni riguardanti il percorso di cura §§§[OK]",
+      "che i medici prendano per primi le decisioni migliori per il paziente",
+      "chei medici si informino sui trattamenti efficaci"
+    ],
+    "chapter": "Lezione 23 - La Motivazione nella Psicologia della Salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q228",
+    "question": "Nello shared decision making:",
+    "choices": [
+      "è il paziente che guida il processo §§§[OK]",
+      "il processo è guidato dal medico",
+      "sonoicaregivera guidare il processo",
+      "l'èquipe medica guida il processo"
+    ],
+    "chapter": "Lezione 23 - La Motivazione nella Psicologia della Salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q229",
+    "question": "La motivazione:",
+    "choices": [
+      "è di natura dinamica §§§[OK]",
+      "è statica",
+      "dipende dall'esito dell'intervento",
+      "non viene misurata"
+    ],
+    "chapter": "Lezione 23 - La Motivazione nella Psicologia della Salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q230",
+    "question": "E' importante studiare la motivazione per:",
+    "choices": [
+      "dare al paziente più autonomia §§§[OK]",
+      "per ridurre i drop out",
+      "dipende dall'esito dell'intervento",
+      "non viene misurata"
+    ],
+    "chapter": "Lezione 23 - La Motivazione nella Psicologia della Salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q231",
+    "question": "Il processo decisionale si basa su:",
+    "choices": [
+      "motivazioni razionali",
+      "motivazioni emotive",
+      "motivazioni edonistiche",
+      "si motivazioni emotive e edonistiche sia razionali §§§[OK]"
+    ],
+    "chapter": "Lezione 24 - I due sistemi cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q232",
+    "question": "La decisione è:",
+    "choices": [
+      "il risultato di 2 processi motivazionali §§§[OK]",
+      "di un processo motivazionale",
+      "di diversi processi motivazionali",
+      "di 3 processi motivazionali"
+    ],
+    "chapter": "Lezione 24 - I due sistemi cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q233",
+    "question": "Le motivazioni umane fondamentali sono:",
+    "choices": [
+      "Il desiderio di ridurre l'incertezza",
+      "il desiderio di ottenere vantaggi",
+      "il desiderio di ridurre l'incertezza e il desiderio di ottenere vantaggi §§§[OK]",
+      "il desiderio di incrementare i vantaggi"
+    ],
+    "chapter": "Lezione 24 - I due sistemi cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q234",
+    "question": "Kahneman e Tversky dividono i processi cognitivi in:",
+    "choices": [
+      "Sistema 1 (razionale) e Sistema 2 (intuitivo)",
+      "Sistema 1 (intuitivo) e Sistema 2 (razionale) §§§[OK]",
+      "Sistema 1 (motivazionale) e Sistema 2 (razionale)",
+      "Sistema 1 (razionale) e Sistema 2 (motivazionale)"
+    ],
+    "chapter": "Lezione 24 - I due sistemi cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q235",
+    "question": "Il Sistema 1:",
+    "choices": [
+      "è il sistema più intuitivo §§§[OK]",
+      "è il sistema più razionale",
+      "è il sistema più deliberativo",
+      "è il sistema più motivazionale"
+    ],
+    "chapter": "Lezione 24 - I due sistemi cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q236",
+    "question": "Il Sistema 2:",
+    "choices": [
+      "è il sistema più intuitivo",
+      "è il sistema più emotivo",
+      "è il sistema più motivazionale",
+      "è il sistema più deliberativo §§§[OK]"
+    ],
+    "chapter": "Lezione 24 - I due sistemi cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q237",
+    "question": "1 due sistemi:",
+    "choices": [
+      "funzionano indipendentemente",
+      "funzionano sia indipendentemente che simultaneamente",
+      "funzionano simultaneamente §§§[OK]",
+      "si escludono a vicenda"
+    ],
+    "chapter": "Lezione 24 - I due sistemi cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q238",
+    "question": "Le emozioni;",
+    "choices": [
+      "non hanno un ruolo nelle decisioni",
+      "hanno un ruolo pervasivo e prevedibile nelle decisioni §§§[OK]",
+      "hanno un ruolo imprevedibile nelle decisioni",
+      "hanno un ruolo marginale nelle decisioni"
+    ],
+    "chapter": "Lezione 24 - I due sistemi cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q239",
+    "question": "I risultati hanno evidenziato che:",
+    "choices": [
+      "il Sistema 1 è usato maggiormente nelle scelte sentimentali §§§[OK]",
+      "il Sistema 2 è usato maggiormente nelle scelte sentimentali",
+      "il Sistema 1 è usato maggiormente nelle scelte di carriera",
+      "i due sistemi non sono rappresentativi per un'area di vita"
+    ],
+    "chapter": "Lezione 24 - I due sistemi cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q240",
+    "question": "I risultati hanno evidenziato che;",
+    "choices": [
+      "non si sono evidenziate differenze in termini di uso dei sistemi e caratteristiche di personalità",
+      "il Sistema 2 è usato maggiormente dagli individui più vulnerabili alle emozioni",
+      "il Sistema 1 è usato maggiormente dagli individui più organizzati",
+      "il Sistema 2 è usato maggiormente dagli individui organizzati §§§[OK]"
+    ],
+    "chapter": "Lezione 24 - I due sistemi cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q241",
+    "question": "I bias cognitivi influenzano:",
+    "choices": [
+      "il pensiero",
+      "il linguaggio",
+      "la memoria",
+      "la decisione §§§[OK]"
+    ],
+    "chapter": "Lezione 25 - I bias cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q242",
+    "question": "Nel bias di ancoraggio:",
+    "choices": [
+      "tendiamo a confrontare solo un insieme limitato di elementi §§§[OK]",
+      "pensiamo che la maggior parte delle persone la pensi come noi",
+      "diamo rilevanza a ciò che è accaduto in passato",
+      "tendenza a concentrarsi selettivamente su parole o immagini specifiche"
+    ],
+    "chapter": "Lezione 25 - I bias cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q243",
+    "question": "Nella gallacia di Gabler",
+    "choices": [
+      "tendiamo a confrontare solo un insieme limitato di elementi §§§[OK]",
+      "pensiamo che la maggior parte delle persone la pensi come noi",
+      "diamo rilevanza a ciò che è accaduto in passato",
+      "tendenzaa concentrarsi selettivamente su parole o immagini specifiche"
+    ],
+    "chapter": "Lezione 25 - I bias cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q244",
+    "question": "Il bias interpretativo può portare a:",
+    "choices": [
+      "un maggior ottimismo",
+      "un maggior pessimismo §§§[OK]",
+      "minore difficoltà nel prendere le decisioni",
+      "maggiore difficoltà nel parlare della propria malattia"
+    ],
+    "chapter": "Lezione 25 - I bias cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q245",
+    "question": "Il recall bias può portare a:",
+    "choices": [
+      "una difficoltà a ricordare sintomi passati",
+      "una sottostima della gravità dei sintomi",
+      "una sovrastima della gravità dei sintomi §§§[OK]",
+      "unadifficoltà a richiamare immagini del passato"
+    ],
+    "chapter": "Lezione 25 - I bias cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q246",
+    "question": "I bias sociali nei pazienti cronici sono importanti perché:",
+    "choices": [
+      "il paziente cronico è influenzato da chi si prende cura di lui §§§[OK]",
+      "il paziente cronico ha difficoltà sociali",
+      "è importante che il paziente cronico non limiti la sua vita sociale",
+      "il paziente cronico sottostima la relazione con l'altro"
+    ],
+    "chapter": "Lezione 25 - I bias cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q247",
+    "question": "Il bias attenzionale è;",
+    "choices": [
+      "interpretazione di un'informazione ambigua in modo correlato alla malattia e al catastrofismo",
+      "la distorsione nell'accuratezza di ricordi recuperati (\"richiamati\") su eventi o esperienze del passato.",
+      "errata valutazione delle scelte con la tendenza a correre un rischio maggiore a causa dell'influenza degli",
+      "l'attenzione selettiva a informazioni specifiche, omettendo di considerare le alternative a causa dell'interferenza della sensibilità preesistente §§§[OK]"
+    ],
+    "chapter": "Lezione 25 - I bias cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q248",
+    "question": "I principali processi che possono influenzare la gestione della salute sono:",
+    "choices": [
+      "fatigue",
+      "fatigue; percezione di impotenza;interferenza nella formazione di obiettivi §§§[OK]",
+      "percezione di impotenza;interferenza nella formazione di obiettivi",
+      "interferenza nella formazione di obiettivi; fatigue"
+    ],
+    "chapter": "Lezione 25 - I bias cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q249",
+    "question": "I bias possono influenzare anche la motivazione:",
+    "choices": [
+      "perché è di natura dinamica",
+      "perla presenza di altri significativi che possono influenzare il processo decisionale",
+      "perla percezione di inaiutabilità del paziente cronico §§§[OK]",
+      "perla paura che possono creare"
+    ],
+    "chapter": "Lezione 25 - I bias cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q250",
+    "question": "La mancanza di motivazione può portare a:",
+    "choices": [
+      "non mettere in atto comortamenti sani §§§[OK]",
+      "distorsioni cognitive",
+      "credenze erronee verso la malattia",
+      "gestire male l'aspetto sociale"
+    ],
+    "chapter": "Lezione 25 - I bias cognitivi",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q251",
+    "question": "Le emozioni garantiscono:",
+    "choices": [
+      "riflessione sugli stimoli",
+      "unavita piena e positiva",
+      "adattamento all'ambiente §§§[OK]",
+      "la produzione creativa"
+    ],
+    "chapter": "Lezione 26 - Le emozioni: teorie classiche",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q252",
+    "question": "Il disgusto serve a:",
+    "choices": [
+      "proteggere da stimoli pericolosi",
+      "evitare l'avvelenamento §§§[OK]",
+      "equilibrare l'organismo",
+      "attivare l'ipotalamo"
+    ],
+    "chapter": "Lezione 26 - Le emozioni: teorie classiche",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q253",
+    "question": "La prima teoria scientifica sulle emozioni fu sviluppata da:",
+    "choices": [
+      "Jamese Lange §§§[OK]",
+      "Cannone Baird",
+      "Schachtere Singer",
+      "Zimbardo e Gerrig"
+    ],
+    "chapter": "Lezione 26 - Le emozioni: teorie classiche",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q254",
+    "question": "La prima teoria scientifica delle emozioni fu sviluppata:",
+    "choices": [
+      "all'inizio del 1800",
+      "verso la fine del 1800 §§§[OK]",
+      "all'inizio del 1900",
+      "ametà del 1900"
+    ],
+    "chapter": "Lezione 26 - Le emozioni: teorie classiche",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q255",
+    "question": "Una semplice descrizione della teoria periferica può essere:",
+    "choices": [
+      "piangiamo perché siamo tristi",
+      "siamotristi perché piangiamo §§§[OK]",
+      "pianto e tristezza sono associati",
+      "si piange per diverse emozioni"
+    ],
+    "chapter": "Lezione 26 - Le emozioni: teorie classiche",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q256",
+    "question": "La seconda teoria storica delle emozioni si chiama;",
+    "choices": [
+      "teoria periferica",
+      "teoria attivazionale",
+      "teoria psicodinamica",
+      "teoria centrale §§§[OK]"
+    ],
+    "chapter": "Lezione 26 - Le emozioni: teorie classiche",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q257",
+    "question": "Secondo la teoria di Cannon e Baird, la percezione dello stimolo emotigeno attiva:",
+    "choices": [
+      "il sistema autonomico",
+      "il talamo §§§[OK]",
+      "la neocorteccia",
+      "illobo occipitale"
+    ],
+    "chapter": "Lezione 26 - Le emozioni: teorie classiche",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q258",
+    "question": "La teoria cognitivo-attivazionale fu sviluppata da:",
+    "choices": [
+      "Baird",
+      "Scherer",
+      "Schachter §§§[OK]",
+      "Burton"
+    ],
+    "chapter": "Lezione 26 - Le emozioni: teorie classiche",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q259",
+    "question": "La teoria cognitivo-attivazionale viene chiamata anche:",
+    "choices": [
+      "teoria cognitiva",
+      "teoria a due fattori §§§[OK]",
+      "teoria moderna",
+      "teoria umanistica"
+    ],
+    "chapter": "Lezione 26 - Le emozioni: teorie classiche",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q260",
+    "question": "L'importante esperimento di Schachter e Singer fu effettuato nel:",
+    "choices": [
+      "1932",
+      "1952",
+      "1992",
+      "1962 §§§[OK]"
+    ],
+    "chapter": "Lezione 26 - Le emozioni: teorie classiche",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q261",
+    "question": "IL concetto di \"finestra di tolleranza\" è stato proposto da:",
+    "choices": [
+      "Siegel §§§[OK]",
+      "Schachter",
+      "Lazarus",
+      "Folkman"
+    ],
+    "chapter": "Lezione 27 - Le emozioni: teorie e studi moderni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q262",
+    "question": "La \"potenzialità di coping focalizzato sul problema\" fa parte del:",
+    "choices": [
+      "arousal",
+      "appraisal primario",
+      "appraisal secondario §§§[OK]",
+      "riconoscimento emotivo"
+    ],
+    "chapter": "Lezione 27 - Le emozioni: teorie e studi moderni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q263",
+    "question": "Tra le seguenti NON fa parte delle emozioni principali:",
+    "choices": [
+      "sorpresa",
+      "disgusto",
+      "senso di colpa §§§[OK]",
+      "gioia"
+    ],
+    "chapter": "Lezione 27 - Le emozioni: teorie e studi moderni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q264",
+    "question": "Secondo una visione dimensionale delle emozioni queste possono essere valutate su tre dimensioni, delle",
+    "choices": [
+      "intensità",
+      "pericolo §§§[OK]",
+      "valenza",
+      "possibilità di coping"
+    ],
+    "chapter": "Lezione 27 - Le emozioni: teorie e studi moderni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q265",
+    "question": "Il marcatore somatico è:",
+    "choices": [
+      "un'emozione",
+      "unricordo",
+      "una sensazione §§§[OK]",
+      "un pensiero"
+    ],
+    "chapter": "Lezione 27 - Le emozioni: teorie e studi moderni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q266",
+    "question": "Nella teoria di Fredrickson le emozioni producono a lungo termine nuove risorse psicologiche. Questo si",
+    "choices": [
+      "arousal",
+      "build §§§[OK]",
+      "broaden",
+      "feedback"
+    ],
+    "chapter": "Lezione 27 - Le emozioni: teorie e studi moderni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q267",
+    "question": "Fredrickson ha proposto la sua teoria nel:",
+    "choices": [
+      "1988",
+      "1998 §§§[OK]",
+      "2008",
+      "2018"
+    ],
+    "chapter": "Lezione 27 - Le emozioni: teorie e studi moderni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q268",
+    "question": "Il muscolo corrugatore, oltre che alle emozioni negative, si associa:",
+    "choices": [
+      "alle emozioni positive",
+      "alrilassamento",
+      "c almaldi pancia",
+      "all'impegno cognitivo §§§[OK]"
+    ],
+    "chapter": "Lezione 27 - Le emozioni: teorie e studi moderni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q269",
+    "question": "Si è occupato di studiare le micro-espressioni:",
+    "choices": [
+      "Lazarus",
+      "Siegel",
+      "Frijda",
+      "Ekman §§§[OK]"
+    ],
+    "chapter": "Lezione 27 - Le emozioni: teorie e studi moderni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q270",
+    "question": "Nell'esperimento sul feedback facciale i partecipanti tenevano in bocca:",
+    "choices": [
+      "una sigaretta",
+      "una matita §§§[OK]",
+      "delcibo",
+      "unbottone"
+    ],
+    "chapter": "Lezione 27 - Le emozioni: teorie e studi moderni",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q271",
+    "question": "Perché è importante saper regolare le emozioni:",
+    "choices": [
+      "per vivere le emozioni appieno",
+      "perché le emozioni causano malattie",
+      "peravere successo",
+      "perché le risposte emotive possono essere disfunzionali §§§[OK]"
+    ],
+    "chapter": "Lezione 28 - La regolazione emotiva",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q272",
+    "question": "L'umore è:",
+    "choices": [
+      "inconscio",
+      "aspecifico §§§[OK]",
+      "un'emozione",
+      "prodotto dall'intuito"
+    ],
+    "chapter": "Lezione 28 - La regolazione emotiva",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q273",
+    "question": "Migliorare l'umore dedicandosi a un proprio hobby significa fare:",
+    "choices": [
+      "coping",
+      "reappraisal",
+      "suppression",
+      "moodrepair §§§[OK]"
+    ],
+    "chapter": "Lezione 28 - La regolazione emotiva",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q274",
+    "question": "Riconsiderare lo stimolo emotigeno per gestire l'emozione significa fare:",
+    "choices": [
+      "mood repair",
+      "reappraisal §§§[OK]",
+      "suppression",
+      "distraction"
+    ],
+    "chapter": "Lezione 28 - La regolazione emotiva",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q275",
+    "question": "Una strategia di coping spesso poco affidabile sul lungo periodo è:",
+    "choices": [
+      "suppression §§§[OK]",
+      "mood repair",
+      "reappraisal",
+      "nessuna delle precedenti"
+    ],
+    "chapter": "Lezione 28 - La regolazione emotiva",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q276",
+    "question": "Riflettere în modo ripetitivo e maladattivo su qualcosa significa fare:",
+    "choices": [
+      "reappraisal",
+      "rumination §§§[OK]",
+      "maladaption",
+      "insight"
+    ],
+    "chapter": "Lezione 28 - La regolazione emotiva",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q277",
+    "question": "La revisione sistematica di Weiss e colleghi ha mostrato differenze nella regolazione emotiva sulla base",
+    "choices": [
+      "etnia",
+      "età §§§[OK]",
+      "cultura personale",
+      "provenienza"
+    ],
+    "chapter": "Lezione 28 - La regolazione emotiva",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q278",
+    "question": "In termini di regolazione emotiva, sembra che le donne rispetto agli uomini:",
+    "choices": [
+      "siano meno capaci di regolare le emozioni",
+      "sentano diversamente le emozioni §§§[OK]",
+      "siano più capaci di regolare le emozioni",
+      "nonsiano diverse in alcun modo"
+    ],
+    "chapter": "Lezione 28 - La regolazione emotiva",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q279",
+    "question": "In termini di regolazione emotiva, la musica:",
+    "choices": [
+      "aiuta supportando il reappraisal §§§[OK]",
+      "aiuta distraendo dalle emozioni",
+      "aiuta supportando la suppression",
+      "aiuta aumentando l'intelligenza emotiva"
+    ],
+    "chapter": "Lezione 28 - La regolazione emotiva",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q280",
+    "question": "La revisione di Villani e colleghi analizzava la relazione tra regolazione emotiva e:",
+    "choices": [
+      "musica",
+      "cinema",
+      "videogiochi §§§[OK]",
+      "tecniche di rilassamento"
+    ],
+    "chapter": "Lezione 28 - La regolazione emotiva",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q281",
+    "question": "Nella ricerca di Trampe e colleghi l'emozione più frequente è:",
+    "choices": [
+      "tristezza",
+      "gioia §§§[OK]",
+      "ansia",
+      "paura"
+    ],
+    "chapter": "Lezione 29 - Intelligenza emotiva ed empatia",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q282",
+    "question": "L'intelligenza emotiva è stata concepita:",
+    "choices": [
+      "come abilità e come tratto §§§[OK]",
+      "come abilità e come pensiero",
+      "come motivazione e come abilità sociale",
+      "comeazione e come concetto"
+    ],
+    "chapter": "Lezione 29 - Intelligenza emotiva ed empatia",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q283",
+    "question": "I primi a parlare di Intelligenza emotiva sono stati;",
+    "choices": [
+      "Hoffmane Blair",
+      "Goleman e Bar-On",
+      "Zimbardo e McKinley",
+      "Salovey e Mayer §§§[OK]"
+    ],
+    "chapter": "Lezione 29 - Intelligenza emotiva ed empatia",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q284",
+    "question": "La concezione di Bar-On rientra nella visione dell'intellisgenza emotiva come:",
+    "choices": [
+      "tratto §§§[OK]",
+      "abilità",
+      "processo cognitivo",
+      "percezione"
+    ],
+    "chapter": "Lezione 29 - Intelligenza emotiva ed empatia",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q285",
+    "question": "La motivazione è un componente dell'Intelligenza Emotiva secondo:",
+    "choices": [
+      "Bar-On",
+      "Salovey",
+      "Williams",
+      "Goleman §§§[OK]"
+    ],
+    "chapter": "Lezione 29 - Intelligenza emotiva ed empatia",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q286",
+    "question": "La BEIS-10 ha:",
+    "choices": [
+      "due dimensioni",
+      "cinque dimensioni §§§[OK]",
+      "tre dimensioni",
+      "quattro dimensioni"
+    ],
+    "chapter": "Lezione 29 - Intelligenza emotiva ed empatia",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q287",
+    "question": "Di empatia tra gli altri si è occupato:",
+    "choices": [
+      "Sherif",
+      "Gibson",
+      "Blair §§§[OK]",
+      "Buxton"
+    ],
+    "chapter": "Lezione 29 - Intelligenza emotiva ed empatia",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q288",
+    "question": "Mi viene da piangere se vedo qualcuno piangere. Si tratta di empatia:",
+    "choices": [
+      "affettiva §§§[OK]",
+      "cognitiva",
+      "motivazionale",
+      "motoria"
+    ],
+    "chapter": "Lezione 29 - Intelligenza emotiva ed empatia",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q289",
+    "question": "Nella teoria di Davis l'empatia, 0 \"reattività interpersonale”, comprende:",
+    "choices": [
+      "la capacità di leggere nel pensiero",
+      "l'abilità di analizzare le espressioni facciali",
+      "latendenzaa identificarsi con personaggi fittizi §§§[OK]",
+      "lavolontà di aiutare gli altri"
+    ],
+    "chapter": "Lezione 29 - Intelligenza emotiva ed empatia",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q290",
+    "question": "Baillie definisce l'empatia:",
+    "choices": [
+      "un sentimento §§§[OK]",
+      "una riflessione",
+      "un ricordo",
+      "un'emozione"
+    ],
+    "chapter": "Lezione 29 - Intelligenza emotiva ed empatia",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q291",
+    "question": "Si può definire la meta-emozione come:",
+    "choices": [
+      "un'emozione particolarmente intensa",
+      "un'emozione provata dopo molto tempo rispetto allo stimolo",
+      "un'emozione provata in risposta a un'altra emozione §§§[OK]",
+      "un'emozione irrazionale"
+    ],
+    "chapter": "Lezione 30 - Meta-emozioni ed emozioni trasformative",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q292",
+    "question": "Hanno studiato le meta-emozioni:",
+    "choices": [
+      "Schachter e Singer",
+      "James e Cannon",
+      "Miceli e Castelfranchi §§§[OK]",
+      "Durosini e Savioni"
+    ],
+    "chapter": "Lezione 30 - Meta-emozioni ed emozioni trasformative",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q293",
+    "question": "Le meta-emozioni sono state molto studiate nella:",
+    "choices": [
+      "psicologia dinamica",
+      "psicologia sociale",
+      "cyberpsicologia",
+      "psicologia dei media §§§[OK]"
+    ],
+    "chapter": "Lezione 30 - Meta-emozioni ed emozioni trasformative",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q294",
+    "question": "Il modello della crescita post-traumatica è stato proposto da:",
+    "choices": [
+      "Tedeschi e Calhoun §§§[OK]",
+      "Pacherie e Simmons",
+      "Crox e Bester",
+      "Burte Jameson"
+    ],
+    "chapter": "Lezione 30 - Meta-emozioni ed emozioni trasformative",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q295",
+    "question": "Secondo il modello della crescita post-traumatica, questa genera:",
+    "choices": [
+      "meta-emozioni",
+      "intenzioni prossimali",
+      "relazioni sociali più intime §§§[OK]",
+      "riflessioni profonde"
+    ],
+    "chapter": "Lezione 30 - Meta-emozioni ed emozioni trasformative",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q296",
+    "question": "Il concetto di crescita post-traumatica permette di superare alcune concezioni semplicistiche della:",
+    "choices": [
+      "tradizione umanistica",
+      "psicologia positiva §§§[OK]",
+      "scuola della Gestalt",
+      "Embodied Cognition"
+    ],
+    "chapter": "Lezione 30 - Meta-emozioni ed emozioni trasformative",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q297",
+    "question": "La principale emozione trasformativa è:",
+    "choices": [
+      "awe §§§[OK]",
+      "flow",
+      "elevation",
+      "admiration"
+    ],
+    "chapter": "Lezione 30 - Meta-emozioni ed emozioni trasformative",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q298",
+    "question": "La vastità percepita è un componente dell'appraisal dell'emozione di:",
+    "choices": [
+      "elevation",
+      "admiration",
+      "vergogna",
+      "awe §§§[OK]"
+    ],
+    "chapter": "Lezione 30 - Meta-emozioni ed emozioni trasformative",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q299",
+    "question": "Commuove sentendo la storia di una persona che si è sacrificata per un amico. Si tratta di:",
+    "choices": [
+      "admiration",
+      "elevation §§§[OK]",
+      "awe",
+      "tristezza"
+    ],
+    "chapter": "Lezione 30 - Meta-emozioni ed emozioni trasformative",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q300",
+    "question": "Tra questi NON è un effetto delle emozioni trasformative:",
+    "choices": [
+      "promozione del comportamento prosociale",
+      "promozione della creatività",
+      "aumento dell'intelligenza §§§[OK]",
+      "benessere"
+    ],
+    "chapter": "Lezione 30 - Meta-emozioni ed emozioni trasformative",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q301",
+    "question": "Nella comunicazione con i nuovi media non si ha più necessariamente:",
+    "choices": [
+      "continuità linguistica",
+      "espressione di intenzioni comunicative",
+      "ascolto profondo",
+      "contiguità spazio-temporale §§§[OK]"
+    ],
+    "chapter": "Lezione 31 - Psicologia dei nuovi media",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q302",
+    "question": "Tra le caratteristiche dei nuovi media vî è la:",
+    "choices": [
+      "ubiquità",
+      "libertà",
+      "infinitezza",
+      "modularità §§§[OK]"
+    ],
+    "chapter": "Lezione 31 - Psicologia dei nuovi media",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q303",
+    "question": "Tra le caratteristiche dei nuovi media vi è la:",
+    "choices": [
+      "situazione",
+      "automazione §§§[OK]",
+      "esenzione",
+      "tecnicalità"
+    ],
+    "chapter": "Lezione 31 - Psicologia dei nuovi media",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q304",
+    "question": "Una delle funzioni dell'interfaccia è:",
+    "choices": [
+      "rendere visibili i contenuti virtuali §§§[OK]",
+      "supportare la comunicazione",
+      "esprimere le emozioni",
+      "bloccare la tecnologia in caso di malfunzionamento"
+    ],
+    "chapter": "Lezione 31 - Psicologia dei nuovi media",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q305",
+    "question": "Rispetto alle fasi dell'interazione uomo-computer, il sistema operativo nasce nella:",
+    "choices": [
+      "fase testuale §§§[OK]",
+      "fase grafica",
+      "fase elettrica",
+      "fase simbolica"
+    ],
+    "chapter": "Lezione 31 - Psicologia dei nuovi media",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q306",
+    "question": "Le affordance possono essere:",
+    "choices": [
+      "concrete e astratte",
+      "percettive e cognitive",
+      "dirette e mediate §§§[OK]",
+      "fredde e calde"
+    ],
+    "chapter": "Lezione 31 - Psicologia dei nuovi media",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q307",
+    "question": "Il concetto di affordance è stato proposto da:",
+    "choices": [
+      "Bruner",
+      "Gibson §§§[OK]",
+      "Zelkha",
+      "Riva"
+    ],
+    "chapter": "Lezione 31 - Psicologia dei nuovi media",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q308",
+    "question": "L'affordance è una proprietà di un oggetto che:",
+    "choices": [
+      "ne consente la percezione tramite i sensi",
+      "lo rende desiderabile",
+      "promuove un'azione §§§[OK]",
+      "ne definisce la complessità a livello di processamento cognitivo"
+    ],
+    "chapter": "Lezione 31 - Psicologia dei nuovi media",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q309",
+    "question": "A definire ilconcetto di Ambient Intelligence è stato:",
+    "choices": [
+      "zelkha §§§[OK]",
+      "gibson",
+      "bandura",
+      "mecornack"
+    ],
+    "chapter": "Lezione 31 - Psicologia dei nuovi media",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q310",
+    "question": "Tra gli altri aspetti, un sistema AmI deve essere:",
+    "choices": [
+      "persistente",
+      "esterno",
+      "anticipatorio §§§[OK]",
+      "comunicabile"
+    ],
+    "chapter": "Lezione 31 - Psicologia dei nuovi media",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q311",
+    "question": "Il termine 'macroergonomia' corrisponde:",
+    "choices": [
+      "all'ergonomia cognitiva",
+      "all'ergonomia psicologica",
+      "all'ergonomia organizzativa §§§[OK]",
+      "all'ergonomia fisiologica"
+    ],
+    "chapter": "Lezione 32 - Ergonomia, Usabilità e User Experience",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q312",
+    "question": "Storicamente l'ergonomia cognitiva è stata chiamata anche:",
+    "choices": [
+      "human computer interaction",
+      "human factors §§§[OK]",
+      "human technology interaction",
+      "psychological ergonomics"
+    ],
+    "chapter": "Lezione 32 - Ergonomia, Usabilità e User Experience",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q313",
+    "question": "Uno degli obiettivi principali degli interventi ergonomici è:",
+    "choices": [
+      "la soddisfazione",
+      "la sicurezza §§§[OK]",
+      "la stabilità del sistema",
+      "la facilità d'uso"
+    ],
+    "chapter": "Lezione 32 - Ergonomia, Usabilità e User Experience",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q314",
+    "question": "L'usabilità è nata negli anni:",
+    "choices": [
+      "sessanta",
+      "ottanta §§§[OK]",
+      "novanta",
+      "cinquanta"
+    ],
+    "chapter": "Lezione 32 - Ergonomia, Usabilità e User Experience",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q315",
+    "question": "Principale oggetto degli interventi di usabilità è:",
+    "choices": [
+      "la comunicazione mediata da computer",
+      "la psicologia degli utenti",
+      "ilcontesto d'uso",
+      "il design industriale §§§[OK]"
+    ],
+    "chapter": "Lezione 32 - Ergonomia, Usabilità e User Experience",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q316",
+    "question": "Tra i concetti fondamentali dell'Usabilità per Nielsen vi è:",
+    "choices": [
+      "lamemorability §§§[OK]",
+      "l'agency",
+      "laself-efficacy",
+      "l'assessment"
+    ],
+    "chapter": "Lezione 32 - Ergonomia, Usabilità e User Experience",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q317",
+    "question": "A proporre il concetto di 'system image! è stato:",
+    "choices": [
+      "Bower",
+      "Norman §§§[OK]",
+      "Riva",
+      "Doran ="
+    ],
+    "chapter": "Lezione 32 - Ergonomia, Usabilità e User Experience",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q318",
+    "question": "Un libro importate per la user experience è stato:",
+    "choices": [
+      "emotional experience",
+      "emotions and technologies",
+      "emotional design §§§[OK]",
+      "emotions and context"
+    ],
+    "chapter": "Lezione 32 - Ergonomia, Usabilità e User Experience",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q319",
+    "question": "Il modello di Benyon per la user experience si chiama:",
+    "choices": [
+      "pact §§§[OK]",
+      "fact",
+      "lact",
+      "tact"
+    ],
+    "chapter": "Lezione 32 - Ergonomia, Usabilità e User Experience",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q320",
+    "question": "Lo User Centered Design è caratterizzato dalla:",
+    "choices": [
+      "rilevazione di correlati psicofisiologici dell'uso di tecnologie e prodotti",
+      "attenzione alla sicurezza sul luogo di lavoro",
+      "creazione di protocolli per la valutazione delle tecnologie",
+      "analisi degli utenti prima dello sviluppo delle tecnologie o prodotti §§§[OK]"
+    ],
+    "chapter": "Lezione 32 - Ergonomia, Usabilità e User Experience",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q321",
+    "question": "A creare il primo sistema di Realtà Virtuale è stato:",
+    "choices": [
+      "Brennon",
+      "Sslater",
+      "Sutherland §§§[OK]",
+      "Johnson"
+    ],
+    "chapter": "Lezione 33 - Realtà Virtuale e Mondi Virtuali",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q322",
+    "question": "Uno strumento della realtà virtuale immersiva è il:",
+    "choices": [
+      "cave §§§[OK]",
+      "computer",
+      "microchip",
+      "cloud"
+    ],
+    "chapter": "Lezione 33 - Realtà Virtuale e Mondi Virtuali",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q323",
+    "question": "Il senso di presenza è stato definito come illusione dî:",
+    "choices": [
+      "luogo",
+      "non-mediazione §§§[OK]",
+      "presenza",
+      "facilità d'uso"
+    ],
+    "chapter": "Lezione 33 - Realtà Virtuale e Mondi Virtuali",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q324",
+    "question": "Per la teoria di Slater l'opposto della presenza è:",
+    "choices": [
+      "l'assenza",
+      "la non-presenza",
+      "la disattenzione",
+      "il breakin presence §§§[OK]"
+    ],
+    "chapter": "Lezione 33 - Realtà Virtuale e Mondi Virtuali",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q325",
+    "question": "A proporre una concezione agentiva della presenza sono stati:",
+    "choices": [
+      "Burt e Smith",
+      "Delacroix e Kazanidis",
+      "Gaggioli e Riva",
+      "Zahorik e Jenison §§§[OK]"
+    ],
+    "chapter": "Lezione 33 - Realtà Virtuale e Mondi Virtuali",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q326",
+    "question": "Per la teoria intenzionale della presenza, quest'uliima emerge da:",
+    "choices": [
+      "formulazione di intenzioni chiare",
+      "impressione di poter attuare le proprie intenzione §§§[OK]",
+      "attuazione delle proprie intenzioni",
+      "detezione delle conseguenze delle proprie intenzioni e azioni"
+    ],
+    "chapter": "Lezione 33 - Realtà Virtuale e Mondi Virtuali",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q327",
+    "question": "Rilevante per alcune teorie della presenza è il concetto di:",
+    "choices": [
+      "motivazione",
+      "technology acceptance",
+      "affordance §§§[OK]",
+      "design personas"
+    ],
+    "chapter": "Lezione 33 - Realtà Virtuale e Mondi Virtuali",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q328",
+    "question": "Un esempio di come la comunicazione non verbale si manifesta nei mondi virtuali riguarda:",
+    "choices": [
+      "la gestualità",
+      "le espressioni facciali",
+      "la prossemica §§§[OK]",
+      "l'aptica"
+    ],
+    "chapter": "Lezione 33 - Realtà Virtuale e Mondi Virtuali",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q329",
+    "question": "Il fenomeno per cui il comportamento delle persone viene influenzato dai toro avatar si chiama:",
+    "choices": [
+      "effetto Proteus §§§[OK]",
+      "sindrome dell'avatar",
+      "effetto body swapping",
+      "modello dell'identificazione"
+    ],
+    "chapter": "Lezione 33 - Realtà Virtuale e Mondi Virtuali",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q330",
+    "question": "A recuperare il concetto di mondi virtuali in senso immersivo di recente è:",
+    "choices": [
+      "la realtà aumentata",
+      "il metaverso §§§[OK]",
+      "il social network",
+      "latecnologia mobile"
+    ],
+    "chapter": "Lezione 33 - Realtà Virtuale e Mondi Virtuali",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q331",
+    "question": "La Realtà Virtuale è utilizzata anche nel trattamento del:",
+    "choices": [
+      "PTSD §§§[OK]",
+      "DSSP",
+      "SPTD",
+      "DPST"
+    ],
+    "chapter": "Lezione 34 - La Realtà Virtuale tra psicoterapia e salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q332",
+    "question": "La exposure therapy è uno strumento tipico dell'approccio:",
+    "choices": [
+      "psicoanalitico",
+      "cognitivo-comportamentale §§§[OK]",
+      "sistemico-relazionale",
+      "gestaltico"
+    ],
+    "chapter": "Lezione 34 - La Realtà Virtuale tra psicoterapia e salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q333",
+    "question": "Laallocentric lock theory è stata sviluppata da;",
+    "choices": [
+      "Chalmers",
+      "Riva §§§[OK]",
+      "Levanick",
+      "Grosso"
+    ],
+    "chapter": "Lezione 34 - La Realtà Virtuale tra psicoterapia e salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q334",
+    "question": "L'espressione patient-centered si accompagna alla parola:",
+    "choices": [
+      "disease",
+      "doctor",
+      "cure",
+      "medicine §§§[OK]"
+    ],
+    "chapter": "Lezione 34 - La Realtà Virtuale tra psicoterapia e salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q335",
+    "question": "La Realtà Virtuale în ambito riabilitativo è efficace soprattutto a livello:",
+    "choices": [
+      "terapeutico",
+      "medicale",
+      "di coinvolgimnnto del paziente §§§[OK]°",
+      "diefficienza economica"
+    ],
+    "chapter": "Lezione 34 - La Realtà Virtuale tra psicoterapia e salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q336",
+    "question": "Tra i seguenti NON è un esempio di realtà aumentata:",
+    "choices": [
+      "ologramma",
+      "qrcode",
+      "immagine sovraimpressa",
+      "telefono satellitare §§§[OK]"
+    ],
+    "chapter": "Lezione 34 - La Realtà Virtuale tra psicoterapia e salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q337",
+    "question": "Tra i seguenti NON è una ipotesi confermata riguardo fattori che influenzano la cybersickness:",
+    "choices": [
+      "differenze sessuali",
+      "età",
+      "postura",
+      "abitudine §§§[OK]"
+    ],
+    "chapter": "Lezione 34 - La Realtà Virtuale tra psicoterapia e salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q338",
+    "question": "Tra i seguenti NON è un sintomo del cluster oculomotorio della cybersickness:",
+    "choices": [
+      "affaticamento degli occhi",
+      "visione sfocata",
+      "aumento della salivazione §§§[OK]",
+      "malditesta"
+    ],
+    "chapter": "Lezione 34 - La Realtà Virtuale tra psicoterapia e salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q339",
+    "question": "Nella cybersickness, la predisposizione a ruttare è un sintomo del cluster:",
+    "choices": [
+      "oculomotorio",
+      "nausea §§§[OK]",
+      "disorientamento",
+      "cronico"
+    ],
+    "chapter": "Lezione 34 - La Realtà Virtuale tra psicoterapia e salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q340",
+    "question": "Per il futuro della Realtà Virtuale, riguardo alla cybersickness sarebbe utile poterla:",
+    "choices": [
+      "spiegare",
+      "analizzare",
+      "predire §§§[OK]",
+      "approfondire"
+    ],
+    "chapter": "Lezione 34 - La Realtà Virtuale tra psicoterapia e salute",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q341",
+    "question": "E' più corretto definire la creatività:",
+    "choices": [
+      "untratto",
+      "unaabilità §§§[OK]",
+      "un superpotere",
+      "unartefatto culturale"
+    ],
+    "chapter": "Lezione 35 - La creatività",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q342",
+    "question": "Tra questi autori ha fornito una definizione della creatività:",
+    "choices": [
+      "Mead",
+      "Spinoza",
+      "Vernon",
+      "Vygotsky §§§[OK]"
+    ],
+    "chapter": "Lezione 35 - La creatività",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q343",
+    "question": "Per Bruner creativo è un prodotto;",
+    "choices": [
+      "emerso dall'immaginazione",
+      "elaborato da un gruppo di persone",
+      "che genera sorpresa §§§[OK]",
+      "legato alle emozioni inconsce dell'individuo"
+    ],
+    "chapter": "Lezione 35 - La creatività",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q344",
+    "question": "Le quattro fasi del processo creativo sono state proposte da:",
+    "choices": [
+      "Jung",
+      "Wallas §§§[OK]",
+      "Bandura",
+      "Caprara"
+    ],
+    "chapter": "Lezione 35 - La creatività",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q345",
+    "question": "La prospettiva fattorialista è legata alla figura di:",
+    "choices": [
+      "Mednick",
+      "Freud",
+      "Bloomsbury",
+      "Guilford §§§[OK]"
+    ],
+    "chapter": "Lezione 35 - La creatività",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q346",
+    "question": "La creazione del velcro è un classico esempio della creatività secondo la prospettiva:",
+    "choices": [
+      "fattorialista",
+      "associazionista §§§[OK]",
+      "gestaltica",
+      "del networked flow"
+    ],
+    "chapter": "Lezione 35 - La creatività",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q347",
+    "question": "Il brain storming è stato proposto da:",
+    "choices": [
+      "Osborn §§§[OK]",
+      "Guilford",
+      "Kohler",
+      "Cage"
+    ],
+    "chapter": "Lezione 35 - La creatività",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q348",
+    "question": "Tra i seguenti è un principio base della sinettica:",
+    "choices": [
+      "rendere estraneo ciò che è familiare §§§[OK]",
+      "rendere creative le persone non creative",
+      "pensare solo tramite analogie",
+      "analizzare il problema da risolvere in modo olistico"
+    ],
+    "chapter": "Lezione 35 - La creatività",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q349",
+    "question": "Tra queste NON è un tipo di analogia considerato dalla sinettica:",
+    "choices": [
+      "diretta",
+      "simbolica",
+      "personale",
+      "intuitiva §§§[OK]"
+    ],
+    "chapter": "Lezione 35 - La creatività",
+    "explanation": "",
+    "img_domanda": ""
+  },
+  {
+    "id": "Q350",
+    "question": "Il cappello giallo nella tecnica di De Bono:",
+    "choices": [
+      "parla solo di aspetti positivi §§§[OK]",
+      "esprime solo emozioni",
+      "non partecipa alla conversazione",
+      "porta solo dati oggettivi e documentazione"
+    ],
+    "chapter": "Lezione 35 - La creatività",
+    "explanation": "",
+    "img_domanda": ""
+  }
+]

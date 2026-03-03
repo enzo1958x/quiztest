@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "generatedAt": "2026-03-02T08:51:39.415153+00:00",
+  "basePath": ".",
+  "files": [
+    {
+      "name": "Algoritmi.json",
+      "url": "Algoritmi.json",
+      "pdf": "",
+      "qmap": "",
+      "xlsx": ""
+    },
+    {
+      "name": "Corporate planning.json",
+      "url": "Corporate planning.json",
+      "pdf": "Corporate planning.pdf",
+      "qmap": "corporate_planning_pdf_map.json",
+      "xlsx": ""
+    },
+    {
+      "name": "Ingegneria_autovalutazione.json",
+      "url": "Ingegneria_autovalutazione.json",
+      "pdf": "",
+      "qmap": "",
+      "xlsx": ""
+    },
+    {
+      "name": "Programmazione distribuita.json",
+      "url": "Programmazione distribuita.json",
+      "pdf": "Programmazione distribuita.pdf",
+      "qmap": "programmazione_distribuita_pdf_map.json",
+      "xlsx": "Programmazione distribuita.xlsx"
+    },
+    {
+      "name": "Psicologia Generale.json",
+      "url": "Psicologia Generale.json",
+      "pdf": "Psicologia Generale.pdf",
+      "qmap": "psicologia_generale_pdf_map.json",
+      "xlsx": "Psicologia Generale.xlsx"
+    }
+  ]
+}
