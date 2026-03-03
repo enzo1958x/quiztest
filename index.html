@@ -1956,14 +1956,16 @@
     const QUIZ_GIT_MODE = true;
     const QUIZ_GIT_BASE = (() => {
       try {
-        return new URL('./files/JSON', window.location.href).href.replace(/\/+$/, '');
+        return new URL('./JSON', window.location.href).href.replace(/\/+$/, '');
       } catch {
-        return '/files/JSON';
+        return '/JSON';
       }
     })();
     const QUIZ_GIT_MANIFEST_CANDIDATES = [
       `${QUIZ_GIT_BASE}/manifest_full.json`,
-      `${QUIZ_GIT_BASE}/manifest.json`
+      `${QUIZ_GIT_BASE}/manifest.json`,
+      `${QUIZ_GIT_BASE}/../files/JSON/manifest_full.json`,
+      `${QUIZ_GIT_BASE}/../files/JSON/manifest.json`
     ];
     let QUIZ_GIT_ACTIVE_BASE = QUIZ_GIT_BASE;
     const SUPABASE_URL = 'https://dkkuchcmifcogxiuefzq.supabase.co';
