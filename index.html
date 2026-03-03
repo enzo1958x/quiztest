@@ -2135,30 +2135,18 @@
     }
 
     async function restoreAuthFromSession() {
+      currentUser = null;
       updateAuthUi();
       if (!supabaseClient) {
         document.body.classList.add('auth-locked');
         openAuthModal();
         return;
       }
-      try {
-        const { data, error } = await supabaseClient.auth.getUser();
-        if (!error && data && data.user) {
-          currentUser = { id: data.user.id, username: emailToUsername(data.user.email || '') };
-        }
-      } catch { }
-      updateAuthUi();
-      if (currentUser) {
-        document.body.classList.remove('auth-locked');
-        closeAuthModal();
-        currentProfile = loadCurrentProfile();
-        refreshProfileUI();
-        await hydrateStatsFromSupabase();
-        renderStats();
-      } else {
-        document.body.classList.add('auth-locked');
-        openAuthModal();
-      }
+      // Force fresh login on every app start.
+      try { await supabaseClient.auth.signOut(); } catch { }
+      document.body.classList.add('auth-locked');
+      openAuthModal();
+      setStatus('Login richiesto: inserisci username e password.');
     }
 
     const HELP_TEXT = (
