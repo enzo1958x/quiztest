@@ -2851,6 +2851,56 @@
 
     function setStatus(msg) { els.statusText().textContent = msg; }
 
+    function computeUsedCountForCurrentDataset() {
+      const total = Array.isArray(ALL_ITEMS) ? ALL_ITEMS.length : 0;
+      if (!total) return 0;
+      const ds = datasetHash(ALL_ITEMS);
+      const u = (currentUser && currentUser.username) ? currentUser.username : 'anon';
+      const prefix = 'qhizhtml_used_v1:' + u + ':' + ds + ':';
+      const uniq = new Set();
+
+      try {
+        Object.entries(usedPoolCacheByKey || {}).forEach(([k, arr]) => {
+          if (!String(k || '').startsWith(prefix)) return;
+          (Array.isArray(arr) ? arr : []).forEach((id) => uniq.add(String(id || '')));
+        });
+      } catch { }
+
+      try {
+        for (let i = 0; i < localStorage.length; i++) {
+          const k = localStorage.key(i);
+          if (!k || !k.startsWith(prefix)) continue;
+          const raw = localStorage.getItem(k);
+          const arr = raw ? JSON.parse(raw) : [];
+          (Array.isArray(arr) ? arr : []).forEach((id) => uniq.add(String(id || '')));
+        }
+      } catch { }
+
+      if (!uniq.size) {
+        try {
+          const set = getUsedSet();
+          return Math.min(total, set.size);
+        } catch { }
+      }
+      return Math.min(total, uniq.size);
+    }
+
+    function updateSelectedJsonBadge() {
+      const b = els.fileBadge ? els.fileBadge() : null;
+      if (!b) return;
+      const base = getJsonBaseName(currentJsonName || '') || String(currentJsonName || '').replace(/\.json$/i, '').trim() || 'JSON';
+      const total = Array.isArray(ALL_ITEMS) ? ALL_ITEMS.length : 0;
+      if (!total) {
+        b.textContent = base;
+        b.title = String(currentJsonName || base);
+        return;
+      }
+      const used = computeUsedCountForCurrentDataset();
+      b.textContent = `${base} (${used}/${total})`;
+      b.title = String(currentJsonName || base) + ` (${used}/${total})`;
+    }
+
+
     function updateExamModeButtonUI() {
       const b = els.btnExamMode ? els.btnExamMode() : document.getElementById('btn-exam-mode');
       if (!b) return;
@@ -3426,6 +3476,7 @@
       usedPoolCacheByKey[ck] = arr;
       try { localStorage.setItem(key, JSON.stringify(arr)); } catch { }
       queueSync(() => syncUsedSetToSupabase(key, m));
+      updateSelectedJsonBadge();
     }
 
     function resetUsed() {
@@ -3435,6 +3486,7 @@
       try { localStorage.removeItem(key); } catch { }
       queueSync(() => syncUsedSetToSupabase(key, m));
       setStatus('Bacino resettato per questa selezione.');
+      updateSelectedJsonBadge();
     }
 
     // ======= Errori persistenti =======
@@ -5415,6 +5467,7 @@
         const currentIds = new Set(CURRENT_ITEMS.map(qid));
         newUsed = new Set([...used, ...currentIds]);
         saveUsedSet(newUsed);
+        updateSelectedJsonBadge();
       }
 
       document.getElementById('source-panel').classList.add('hidden');
@@ -5624,6 +5677,7 @@
         currentMode = 'base';
         setStatus(`Dati caricati da GitHub ✓ (${ALL_ITEMS.length} quiz) — ${currentMappingStatusText()} [base: ${QUIZ_GIT_ACTIVE_BASE || QUIZ_GIT_BASE}].`);
         renderChapters();
+        updateSelectedJsonBadge();
         document.getElementById('filters-panel').classList.remove('hidden');
         refreshModeUI();
         renderStats();
@@ -5694,7 +5748,8 @@
         await refreshPdfChapterMapForCurrentJson();
         currentMode = 'base';
         setStatus('File caricato ✓ (' + ALL_ITEMS.length + ' quiz) - ' + currentMappingStatusText() + '. Imposta filtri e premi "Procedi"');
-        renderChapters(); document.getElementById('filters-panel').classList.remove('hidden');
+        renderChapters();
+        updateSelectedJsonBadge(); document.getElementById('filters-panel').classList.remove('hidden');
         refreshModeUI();
         renderStats();
         els.num().value = Math.min(30, ALL_ITEMS.length);
@@ -5723,6 +5778,7 @@
       setDatasetDirButtonVisible(!currentPdfLinkCfg);
       setStatus('File caricato ✓ (' + ALL_ITEMS.length + ' quiz) - ' + currentMappingStatusText() + '. Imposta filtri e premi "Procedi"');
       renderChapters();
+        updateSelectedJsonBadge();
       document.getElementById('filters-panel').classList.remove('hidden');
       refreshModeUI();
       renderStats();
@@ -5744,12 +5800,14 @@
       currentJsonSource = { type: 'url' };
       updateHeroJsonName(currentJsonName);
       const data = await loadFromUrl(url);
-      if (data) { RAW_ITEMS = data; ALL_ITEMS = validateItems(RAW_ITEMS) || []; if (!ALL_ITEMS.length) { setStatus('JSON vuoto o non valido.'); return; } archiveCurrentJson(RAW_ITEMS, currentJsonName); await refreshPdfChapterMapForCurrentJson(); currentMode = 'base'; setStatus('Dati caricati da URL ✓ — ' + currentMappingStatusText() + '. Imposta filtri e premi "Procedi".'); renderChapters(); document.getElementById('filters-panel').classList.remove('hidden'); refreshModeUI(); renderStats(); }
+      if (data) { RAW_ITEMS = data; ALL_ITEMS = validateItems(RAW_ITEMS) || []; if (!ALL_ITEMS.length) { setStatus('JSON vuoto o non valido.'); return; } archiveCurrentJson(RAW_ITEMS, currentJsonName); await refreshPdfChapterMapForCurrentJson(); currentMode = 'base'; setStatus('Dati caricati da URL ✓ — ' + currentMappingStatusText() + '. Imposta filtri e premi "Procedi".'); renderChapters();
+        updateSelectedJsonBadge(); document.getElementById('filters-panel').classList.remove('hidden'); refreshModeUI(); renderStats(); }
     });
 
     els.btnParse().addEventListener('click', async () => {
       if (!ensureAuth()) return;
-      try { setDatasetDirButtonVisible(false); RAW_ITEMS = JSON.parse(els.paste().value); ALL_ITEMS = validateItems(RAW_ITEMS) || []; if (!ALL_ITEMS.length) { setStatus('JSON vuoto o non valido.'); return; } currentJsonName = 'JSON incollato'; currentJsonSource = { type: 'paste' }; updateHeroJsonName(currentJsonName); archiveCurrentJson(RAW_ITEMS, currentJsonName); await refreshPdfChapterMapForCurrentJson(); currentMode = 'base'; setStatus('JSON incollato ✓ — ' + currentMappingStatusText() + '. Imposta filtri e premi "Procedi".'); renderChapters(); document.getElementById('filters-panel').classList.remove('hidden'); refreshModeUI(); renderStats(); }
+      try { setDatasetDirButtonVisible(false); RAW_ITEMS = JSON.parse(els.paste().value); ALL_ITEMS = validateItems(RAW_ITEMS) || []; if (!ALL_ITEMS.length) { setStatus('JSON vuoto o non valido.'); return; } currentJsonName = 'JSON incollato'; currentJsonSource = { type: 'paste' }; updateHeroJsonName(currentJsonName); archiveCurrentJson(RAW_ITEMS, currentJsonName); await refreshPdfChapterMapForCurrentJson(); currentMode = 'base'; setStatus('JSON incollato ✓ — ' + currentMappingStatusText() + '. Imposta filtri e premi "Procedi".'); renderChapters();
+        updateSelectedJsonBadge(); document.getElementById('filters-panel').classList.remove('hidden'); refreshModeUI(); renderStats(); }
       catch (err) { setStatus('Errore parsing JSON incollato: ' + err.message); }
     });
 
