@@ -2117,6 +2117,7 @@
         document.body.classList.remove('auth-locked');
         closeAuthModal();
         updateAuthUi();
+        await hydrateAppStateFromSupabase();
         currentProfile = loadCurrentProfile();
         refreshProfileUI();
         await hydrateStatsFromSupabase();
@@ -2176,6 +2177,9 @@
         document.body.classList.remove('auth-locked');
         closeAuthModal();
         updateAuthUi();
+        await hydrateAppStateFromSupabase();
+        currentProfile = loadCurrentProfile();
+        refreshProfileUI();
         await hydrateStatsFromSupabase();
         renderStats();
         setStatus('Password aggiornata con successo.');
@@ -2188,6 +2192,11 @@
 
     async function logoutAuth() {
       currentUser = null;
+      profilesCacheByDataset = {};
+      currentProfileByDataset = {};
+      usedPoolCacheByKey = {};
+      wrongCacheByDataset = {};
+      currentProfile = null;
       if (supabaseClient) {
         try { await supabaseClient.auth.signOut(); } catch { }
       }
@@ -2972,15 +2981,116 @@
       return out;
     }
 
-    // ======= Profili persistenti =======
+        // ======= Profili persistenti =======
     const LS_PROFILES = 'qhizhtml_profiles_v1';
     const LS_CURRENT = 'qhizhtml_current_profile_v1';
     const LS_JSON_ARCHIVE = 'qhizhtml_json_archive_v1';
     const LS_QMAP_CACHE = 'qhizhtml_qmap_cache_v1';
-    function loadProfiles() { try { return JSON.parse(localStorage.getItem(scopedKey(LS_PROFILES)) || '{}'); } catch { return {}; } }
-    function saveProfiles(obj) { localStorage.setItem(scopedKey(LS_PROFILES), JSON.stringify(obj)); }
-    function loadCurrentProfile() { try { return JSON.parse(localStorage.getItem(scopedKey(LS_CURRENT)) || 'null'); } catch { return null; } }
-    function saveCurrentProfile(obj) { if (obj) localStorage.setItem(scopedKey(LS_CURRENT), JSON.stringify(obj)); else localStorage.removeItem(scopedKey(LS_CURRENT)); }
+    const LS_WRONG = 'qhizhtml_wrong_v1';
+
+    let profilesCacheByDataset = {};
+    let currentProfileByDataset = {};
+    let usedPoolCacheByKey = {};
+    let wrongCacheByDataset = {};
+
+    function cloudEnabled() {
+      return !!(supabaseClient && currentUser && currentUser.id);
+    }
+
+    function usedCacheKey(datasetKey, mode) {
+      return String(datasetKey || '') + '::' + String(mode || 'base');
+    }
+
+    function activeDatasetKey() {
+      const h = datasetHash(ALL_ITEMS);
+      return h || 'global';
+    }
+
+    function loadProfilesLocalFallback() {
+      try { return JSON.parse(localStorage.getItem(scopedKey(LS_PROFILES)) || '{}'); } catch { return {}; }
+    }
+
+    function loadProfiles() {
+      const dk = activeDatasetKey();
+      if (cloudEnabled()) {
+        return (profilesCacheByDataset[dk] && typeof profilesCacheByDataset[dk] === 'object') ? profilesCacheByDataset[dk] : {};
+      }
+      if (profilesCacheByDataset[dk] && typeof profilesCacheByDataset[dk] === 'object') {
+        return profilesCacheByDataset[dk];
+      }
+      const fb = loadProfilesLocalFallback();
+      profilesCacheByDataset[dk] = fb;
+      return profilesCacheByDataset[dk];
+    }
+
+    function queueSync(fn) {
+      Promise.resolve().then(fn).catch((e) => {
+        console.error('Cloud sync error', e);
+      });
+    }
+
+    async function syncProfilesForDatasetToSupabase(datasetKey) {
+      if (!cloudEnabled()) return;
+      const profiles = profilesCacheByDataset[datasetKey] || {};
+      const cur = currentProfileByDataset[datasetKey]?.name || null;
+      const rows = Object.keys(profiles).map((name) => ({
+        user_id: currentUser.id,
+        dataset_key: datasetKey,
+        profile_name: name,
+        payload: profiles[name] || {},
+        is_current: cur === name
+      }));
+
+      const del = await supabaseClient
+        .from('quiz_profiles')
+        .delete()
+        .eq('user_id', currentUser.id)
+        .eq('dataset_key', datasetKey);
+      if (del.error) throw del.error;
+
+      if (rows.length) {
+        const ins = await supabaseClient.from('quiz_profiles').insert(rows);
+        if (ins.error) throw ins.error;
+      }
+    }
+
+    function saveProfiles(obj) {
+      const dk = activeDatasetKey();
+      profilesCacheByDataset[dk] = obj || {};
+      try { localStorage.setItem(scopedKey(LS_PROFILES), JSON.stringify(obj || {})); } catch { }
+      queueSync(() => syncProfilesForDatasetToSupabase(dk));
+    }
+
+    function loadCurrentProfile() {
+      const dk = activeDatasetKey();
+      if (Object.prototype.hasOwnProperty.call(currentProfileByDataset, dk)) {
+        return currentProfileByDataset[dk];
+      }
+      if (cloudEnabled()) {
+        currentProfileByDataset[dk] = null;
+        return null;
+      }
+      try {
+        const fb = JSON.parse(localStorage.getItem(scopedKey(LS_CURRENT)) || 'null');
+        currentProfileByDataset[dk] = fb;
+        return fb;
+      } catch {
+        currentProfileByDataset[dk] = null;
+        return null;
+      }
+    }
+
+    function saveCurrentProfile(obj) {
+      const dk = activeDatasetKey();
+      currentProfileByDataset[dk] = obj || null;
+      if (obj) {
+        try { localStorage.setItem(scopedKey(LS_CURRENT), JSON.stringify(obj)); } catch { }
+      } else {
+        try { localStorage.removeItem(scopedKey(LS_CURRENT)); } catch { }
+      }
+      queueSync(() => syncProfilesForDatasetToSupabase(dk));
+    }
+
     function loadJsonArchive() { try { return JSON.parse(localStorage.getItem(scopedKey(LS_JSON_ARCHIVE)) || '{}'); } catch { return {}; } }
     function saveJsonArchive(obj) {
       const tryStore = (value) => {
@@ -2993,7 +3103,6 @@
       };
       if (tryStore(obj)) return true;
 
-      // Fallback quota: conserva solo metadati, evita crash.
       const slim = {};
       Object.entries(obj || {}).forEach(([k, v]) => {
         if (!v || typeof v !== 'object') return;
@@ -3010,15 +3119,14 @@
         return true;
       }
 
-      // Ultimo fallback: svuota archivio persistente.
-      try {
-        localStorage.setItem(scopedKey(LS_JSON_ARCHIVE), '{}');
-      } catch { }
+      try { localStorage.setItem(scopedKey(LS_JSON_ARCHIVE), '{}'); } catch { }
       setStatus('Archivio JSON disattivato: spazio browser esaurito.');
       return false;
     }
+
     function loadQmapCache() { try { return JSON.parse(localStorage.getItem(scopedKey(LS_QMAP_CACHE)) || '{}'); } catch { return {}; } }
     function saveQmapCache(obj) { try { localStorage.setItem(scopedKey(LS_QMAP_CACHE), JSON.stringify(obj || {})); } catch { } }
+
     function archiveCurrentJson(rawItems, displayName) {
       if (!Array.isArray(rawItems) || !rawItems.length) return;
       const normalized = validateItems(rawItems) || [];
@@ -3033,7 +3141,79 @@
       };
       saveJsonArchive(archive);
     }
-    let currentProfile = loadCurrentProfile(); // {name, chapters}
+
+    let currentProfile = loadCurrentProfile();
+
+    async function hydrateAppStateFromSupabase() {
+      if (!cloudEnabled()) {
+        profilesCacheByDataset = {};
+        currentProfileByDataset = {};
+        usedPoolCacheByKey = {};
+        wrongCacheByDataset = {};
+        return;
+      }
+      try {
+        const profilesQ = await supabaseClient
+          .from('quiz_profiles')
+          .select('dataset_key,profile_name,payload,is_current')
+          .eq('user_id', currentUser.id);
+        if (profilesQ.error) throw profilesQ.error;
+
+        const usedQ = await supabaseClient
+          .from('quiz_used_pool')
+          .select('dataset_key,mode,qid')
+          .eq('user_id', currentUser.id);
+        if (usedQ.error) throw usedQ.error;
+
+        const wrongQ = await supabaseClient
+          .from('quiz_wrong_items')
+          .select('dataset_key,payload')
+          .eq('user_id', currentUser.id)
+          .order('updated_at', { ascending: false });
+        if (wrongQ.error) throw wrongQ.error;
+
+        const pByDs = {};
+        const cpByDs = {};
+        (profilesQ.data || []).forEach((r) => {
+          const dk = String(r.dataset_key || 'global');
+          if (!pByDs[dk]) pByDs[dk] = {};
+          pByDs[dk][String(r.profile_name || '')] = (r.payload && typeof r.payload === 'object') ? r.payload : {};
+          if (r.is_current) {
+            const p = pByDs[dk][String(r.profile_name || '')] || {};
+            cpByDs[dk] = {
+              name: String(r.profile_name || ''),
+              chapters: Array.isArray(p.chapters) ? p.chapters : [],
+              percents: p.percents || null
+            };
+          }
+        });
+
+        const usedByKey = {};
+        (usedQ.data || []).forEach((r) => {
+          const k = usedCacheKey(String(r.dataset_key || ''), String(r.mode || 'base'));
+          if (!usedByKey[k]) usedByKey[k] = [];
+          usedByKey[k].push(String(r.qid || ''));
+        });
+
+        const wrongByDs = {};
+        (wrongQ.data || []).forEach((r) => {
+          const dk = String(r.dataset_key || 'global');
+          if (!wrongByDs[dk]) wrongByDs[dk] = [];
+          const p = (r.payload && typeof r.payload === 'object') ? r.payload : null;
+          if (p) wrongByDs[dk].push(p);
+        });
+        Object.keys(wrongByDs).forEach((dk) => {
+          wrongByDs[dk] = sanitizeWrongList(wrongByDs[dk]);
+        });
+
+        profilesCacheByDataset = pByDs;
+        currentProfileByDataset = cpByDs;
+        usedPoolCacheByKey = usedByKey;
+        wrongCacheByDataset = wrongByDs;
+      } catch (e) {
+        setStatus('Errore caricamento stato cloud: ' + (e?.message || e));
+      }
+    }
 
     function getSelectedChapters() { return Array.from(document.querySelectorAll('#chapters input[type="checkbox"]:checked')).map(cb => cb.getAttribute('data-name')); }
     function setSelectedChapters(names) {
@@ -3138,6 +3318,7 @@
       setStatus('Profilo caricato: "' + name + '".');
       closeProfileModal();
     }
+
     function deleteProfile() {
       const name = els.profileSelect().value || (currentProfile?.name || '');
       if (!name) { setStatus('Seleziona un profilo da eliminare.'); return; }
@@ -3152,7 +3333,7 @@
 
     // ======= Bacino (no ripetizioni) =======
     function hashString(s) { let h = 5381; for (let i = 0; i < s.length; i++) { h = ((h << 5) + h) ^ s.charCodeAt(i); } return (h >>> 0).toString(36); }
-    // Chiave stabile per domanda: id reale quando non è del tipo Q#, altrimenti hash del testo
+
     function qid(q) {
       const id = (q && q.id) ? String(q.id) : '';
       if (id && !/^Q\d+$/.test(id)) return id;
@@ -3165,8 +3346,8 @@
         const sig = (items || []).map(it => qid(it)).sort().join('|');
         return hashString(sig);
       } catch (e) { return 'ds'; }
-
     }
+
     function chaptersSignature() {
       const names = Array.from(document.querySelectorAll('#chapters input[type="checkbox"]'))
         .filter(cb => cb.checked).map(cb => cb.getAttribute('data-name'));
@@ -3174,48 +3355,129 @@
       return names.join('|') || '(all)';
     }
 
-    function usedKey() { const u=(currentUser&&currentUser.username)?currentUser.username:'anon'; return 'qhizhtml_used_v1:' + u + ':' + datasetHash(ALL_ITEMS) + ':' + chaptersSignature(); }
+    function usedKey() {
+      const u = (currentUser && currentUser.username) ? currentUser.username : 'anon';
+      return 'qhizhtml_used_v1:' + u + ':' + datasetHash(ALL_ITEMS) + ':' + chaptersSignature();
+    }
+
+    async function syncUsedSetToSupabase(key, mode) {
+      if (!cloudEnabled()) return;
+      const m = mode === 'wrong' ? 'wrong' : 'base';
+      const ck = usedCacheKey(key, m);
+      const arr = Array.isArray(usedPoolCacheByKey[ck]) ? usedPoolCacheByKey[ck] : [];
+      const del = await supabaseClient
+        .from('quiz_used_pool')
+        .delete()
+        .eq('user_id', currentUser.id)
+        .eq('dataset_key', key)
+        .eq('mode', m);
+      if (del.error) throw del.error;
+      if (!arr.length) return;
+      const rows = arr.map((id) => ({ user_id: currentUser.id, dataset_key: key, mode: m, qid: String(id) }));
+      const ins = await supabaseClient.from('quiz_used_pool').insert(rows);
+      if (ins.error) throw ins.error;
+    }
 
     function getUsedSet() {
-      try {
-        const raw = localStorage.getItem(usedKey());
-        const arr = raw ? JSON.parse(raw) : [];
-        return new Set(arr);
+      const key = usedKey();
+      const m = currentMode === 'wrong' ? 'wrong' : 'base';
+      const ck = usedCacheKey(key, m);
+      if (Array.isArray(usedPoolCacheByKey[ck])) {
+        return new Set(usedPoolCacheByKey[ck]);
       }
-      catch {
+      try {
+        const raw = localStorage.getItem(key);
+        const arr = raw ? JSON.parse(raw) : [];
+        usedPoolCacheByKey[ck] = Array.isArray(arr) ? arr : [];
+        return new Set(usedPoolCacheByKey[ck]);
+      } catch {
+        usedPoolCacheByKey[ck] = [];
         return new Set();
       }
     }
 
-    function saveUsedSet(set) { try { localStorage.setItem(usedKey(), JSON.stringify(Array.from(set))); } catch { } }
+    function saveUsedSet(set) {
+      const key = usedKey();
+      const m = currentMode === 'wrong' ? 'wrong' : 'base';
+      const ck = usedCacheKey(key, m);
+      const arr = Array.from(set || []);
+      usedPoolCacheByKey[ck] = arr;
+      try { localStorage.setItem(key, JSON.stringify(arr)); } catch { }
+      queueSync(() => syncUsedSetToSupabase(key, m));
+    }
 
-    function resetUsed() { localStorage.removeItem(usedKey()); setStatus('Bacino resettato per questa selezione.'); }
+    function resetUsed() {
+      const key = usedKey();
+      const m = currentMode === 'wrong' ? 'wrong' : 'base';
+      delete usedPoolCacheByKey[usedCacheKey(key, m)];
+      try { localStorage.removeItem(key); } catch { }
+      queueSync(() => syncUsedSetToSupabase(key, m));
+      setStatus('Bacino resettato per questa selezione.');
+    }
 
     // ======= Errori persistenti =======
-    const LS_WRONG = 'qhizhtml_wrong_v1';
     function wrongDataKey() { return datasetHash(ALL_ITEMS); }
-    function loadWrongRoot() { try { return JSON.parse(localStorage.getItem(scopedKey(LS_WRONG)) || '{}'); } catch { return {}; } }
-    function saveWrongRoot(obj) { localStorage.setItem(scopedKey(LS_WRONG), JSON.stringify(obj)); }
+
+    function loadWrongRoot() {
+      if (cloudEnabled()) return wrongCacheByDataset || {};
+      const cloud = wrongCacheByDataset || {};
+      if (Object.keys(cloud).length) return cloud;
+      try { return JSON.parse(localStorage.getItem(scopedKey(LS_WRONG)) || '{}'); } catch { return {}; }
+    }
+
+    function saveWrongRoot(obj) {
+      wrongCacheByDataset = obj || {};
+      try { localStorage.setItem(scopedKey(LS_WRONG), JSON.stringify(obj || {})); } catch { }
+    }
+
+    async function syncWrongListToSupabase(datasetKey) {
+      if (!cloudEnabled()) return;
+      const list = Array.isArray(wrongCacheByDataset[datasetKey]) ? wrongCacheByDataset[datasetKey] : [];
+      const del = await supabaseClient
+        .from('quiz_wrong_items')
+        .delete()
+        .eq('user_id', currentUser.id)
+        .eq('dataset_key', datasetKey);
+      if (del.error) throw del.error;
+      if (!list.length) return;
+      const rows = list.map((it) => ({
+        user_id: currentUser.id,
+        dataset_key: datasetKey,
+        qid: wrongQuestionKey(it),
+        chapter: String(it.chapter || 'Generale'),
+        question: String(it.question || ''),
+        payload: it,
+        wrong_count: 1,
+        last_wrong_at: new Date().toISOString()
+      }));
+      const ins = await supabaseClient.from('quiz_wrong_items').insert(rows);
+      if (ins.error) throw ins.error;
+    }
+
     function loadWrongQuestionsForCurrentDataset() {
       const root = loadWrongRoot();
       const list = root[wrongDataKey()] || [];
       if (!Array.isArray(list)) return [];
       return sanitizeWrongList(list);
     }
+
     function saveWrongQuestionsForCurrentDataset(list) {
       const root = loadWrongRoot();
       root[wrongDataKey()] = sanitizeWrongList(Array.isArray(list) ? list : []);
       saveWrongRoot(root);
+      queueSync(() => syncWrongListToSupabase(wrongDataKey()));
       if (!document.body.classList.contains('quiz-full')) {
         refreshModeUI();
       }
     }
+
     function wrongQuestionKey(it) {
       const id = (it && it.id) ? String(it.id) : '';
       if (id && !/^Q\d+$/i.test(id)) return `id:${id}`;
       const q = String(it && it.question || '').trim().toLowerCase();
       return `q:${hashString(q)}`;
     }
+
     function sanitizeWrongList(list) {
       const byKey = new Map();
       list.forEach(it => {
@@ -3236,6 +3498,7 @@
       });
       return Array.from(byKey.values());
     }
+
     function mergeWrongQuestions(missed) {
       const existing = loadWrongQuestionsForCurrentDataset();
       const byId = new Map(existing.map(it => [wrongQuestionKey(it), it]));
@@ -3258,6 +3521,7 @@
       const filtered = existing.filter(it => !toRemove.has(wrongQuestionKey(it)));
       saveWrongQuestionsForCurrentDataset(filtered);
     }
+
 
     // ======= Core =======
     function chapterLabelCompare(a, b) {
@@ -3306,6 +3570,7 @@
         `;
         c.appendChild(lab);
       });
+      currentProfile = loadCurrentProfile();
       refreshProfileUI();
       if (currentMode === 'base') {
         applyCurrentProfileToUI();
