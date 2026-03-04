@@ -3001,9 +3001,25 @@
       return String(datasetKey || '') + '::' + String(mode || 'base');
     }
 
-    function activeDatasetKey() {
+        function profilePrimaryDatasetKey() {
+      const byName = getJsonBaseName(currentJsonName || '').trim().toLowerCase();
+      if (byName && byName !== 'json') return 'json:' + byName;
       const h = datasetHash(ALL_ITEMS);
       return h || 'global';
+    }
+
+    function profileDatasetKeys() {
+      const out = [];
+      const primary = profilePrimaryDatasetKey();
+      if (primary) out.push(primary);
+      const h = datasetHash(ALL_ITEMS) || 'global';
+      if (!out.includes(h)) out.push(h);
+      if (!out.includes('global')) out.push('global');
+      return out;
+    }
+
+    function activeDatasetKey() {
+      return profilePrimaryDatasetKey();
     }
 
     function loadProfilesLocalFallback() {
@@ -3011,16 +3027,17 @@
     }
 
     function loadProfiles() {
-      const dk = activeDatasetKey();
-      if (cloudEnabled()) {
-        return (profilesCacheByDataset[dk] && typeof profilesCacheByDataset[dk] === 'object') ? profilesCacheByDataset[dk] : {};
+      const primary = profilePrimaryDatasetKey();
+      for (const k of profileDatasetKeys()) {
+        if (profilesCacheByDataset[k] && typeof profilesCacheByDataset[k] === 'object') {
+          if (k !== primary) profilesCacheByDataset[primary] = profilesCacheByDataset[k];
+          return profilesCacheByDataset[k];
+        }
       }
-      if (profilesCacheByDataset[dk] && typeof profilesCacheByDataset[dk] === 'object') {
-        return profilesCacheByDataset[dk];
-      }
+      if (cloudEnabled()) return {};
       const fb = loadProfilesLocalFallback();
-      profilesCacheByDataset[dk] = fb;
-      return profilesCacheByDataset[dk];
+      profilesCacheByDataset[primary] = fb;
+      return fb;
     }
 
     function queueSync(fn) {
@@ -3055,33 +3072,37 @@
     }
 
     function saveProfiles(obj) {
-      const dk = activeDatasetKey();
+      const dk = profilePrimaryDatasetKey();
       profilesCacheByDataset[dk] = obj || {};
       try { localStorage.setItem(scopedKey(LS_PROFILES), JSON.stringify(obj || {})); } catch { }
       queueSync(() => syncProfilesForDatasetToSupabase(dk));
     }
 
     function loadCurrentProfile() {
-      const dk = activeDatasetKey();
-      if (Object.prototype.hasOwnProperty.call(currentProfileByDataset, dk)) {
-        return currentProfileByDataset[dk];
+      const primary = profilePrimaryDatasetKey();
+      for (const k of profileDatasetKeys()) {
+        if (Object.prototype.hasOwnProperty.call(currentProfileByDataset, k)) {
+          const found = currentProfileByDataset[k];
+          if (k !== primary) currentProfileByDataset[primary] = found;
+          return found;
+        }
       }
       if (cloudEnabled()) {
-        currentProfileByDataset[dk] = null;
+        currentProfileByDataset[primary] = null;
         return null;
       }
       try {
         const fb = JSON.parse(localStorage.getItem(scopedKey(LS_CURRENT)) || 'null');
-        currentProfileByDataset[dk] = fb;
+        currentProfileByDataset[primary] = fb;
         return fb;
       } catch {
-        currentProfileByDataset[dk] = null;
+        currentProfileByDataset[primary] = null;
         return null;
       }
     }
 
     function saveCurrentProfile(obj) {
-      const dk = activeDatasetKey();
+      const dk = profilePrimaryDatasetKey();
       currentProfileByDataset[dk] = obj || null;
       if (obj) {
         try { localStorage.setItem(scopedKey(LS_CURRENT), JSON.stringify(obj)); } catch { }
@@ -3090,6 +3111,7 @@
       }
       queueSync(() => syncProfilesForDatasetToSupabase(dk));
     }
+
 
     function loadJsonArchive() { try { return JSON.parse(localStorage.getItem(scopedKey(LS_JSON_ARCHIVE)) || '{}'); } catch { return {}; } }
     function saveJsonArchive(obj) {
