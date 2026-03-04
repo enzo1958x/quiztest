@@ -500,6 +500,13 @@
       border: 1px solid #d9d1c4;
     }
 
+    .btn.exam-on {
+      background: linear-gradient(180deg, #ffd54f, #f59e0b);
+      color: #5b2a00;
+      border-color: #d97706;
+      box-shadow: 0 10px 18px rgba(245, 158, 11, .32);
+    }
+
     .top-actions {
       display: flex;
       gap: .55rem;
@@ -873,6 +880,55 @@
     }
 
     #results-modal:not(.hidden) {
+      display: flex;
+    }
+
+    #exam-check-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 65;
+      background: rgba(12, 18, 28, 0.52);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    #exam-check-modal .modal-card {
+      background: linear-gradient(180deg, #fffdf8, #fff7e8);
+      border: 1px solid #f2d7a3;
+      border-radius: 18px;
+      padding: 1.25rem 1.4rem;
+      box-shadow: 0 20px 44px rgba(15, 23, 42, .30);
+      max-width: 560px;
+      width: min(560px, 94vw);
+      text-align: center;
+    }
+
+    #exam-check-modal .modal-title {
+      font-size: 20px;
+      font-weight: 900;
+      color: #7a0f3d;
+      margin-bottom: .5rem;
+    }
+
+    #exam-check-text {
+      color: #1f2937;
+      font-size: 16px;
+      line-height: 1.45;
+      margin-bottom: .9rem;
+    }
+
+    #exam-check-modal .modal-actions {
+      display: flex;
+      justify-content: center;
+    }
+
+    #exam-check-modal.hidden {
+      display: none !important;
+    }
+
+    #exam-check-modal:not(.hidden) {
       display: flex;
     }
 
@@ -1777,6 +1833,16 @@
       </div>
     </div>
 
+    <div id="exam-check-modal" class="hidden">
+      <div class="modal-card">
+        <div class="modal-title">Modalità esame attiva</div>
+        <div id="exam-check-text">Conferma presenza per continuare il questionario.</div>
+        <div class="modal-actions">
+          <button id="exam-check-ok" class="btn" type="button">OK, continua</button>
+        </div>
+      </div>
+    </div>
+
     <div id="choice-modal" class="hidden">
       <div class="modal-card">
         <div id="choice-title" class="modal-title">Selezione</div>
@@ -1885,6 +1951,7 @@
 
     <div class="row center" id="proceed-row" style="margin:1rem 0;">
       <button id="btn-go" class="btn btn-lg"><i>▶</i> Procedi</button>
+      <button id="btn-exam-mode" class="btn btn-ghost" type="button">Modalità esame: OFF</button>
     </div>
 
     <section class="hidden" id="quiz-panel">
@@ -1950,6 +2017,10 @@
     let lastTick = null;
     let timerInterval = null;
     let elapsedSeconds = 0;
+    let examModeEnabled = false;
+    let examCorrectionUnlocked = true;
+    let examNextPopupAt = 120;
+    let examPopupOpen = false;
     let currentJsonName = '';
     let currentJsonSource = { type: 'none' }; // none | file | url | paste
     let currentPdfObjectUrl = null;
@@ -2248,6 +2319,7 @@
       paste: () => document.getElementById('paste'),
       btnParse: () => document.getElementById('btn-parse'),
       btnGo: () => document.getElementById('btn-go'),
+      btnExamMode: () => document.getElementById('btn-exam-mode'),
       btnProfile: () => document.getElementById('btn-profile'),
       profileCurrent: () => document.getElementById('profile-current'),
       btnToggleMode: () => document.getElementById('btn-toggle-mode'),
@@ -2769,6 +2841,37 @@
     }
 
     function setStatus(msg) { els.statusText().textContent = msg; }
+
+    function updateExamModeButtonUI() {
+      const b = els.btnExamMode ? els.btnExamMode() : document.getElementById('btn-exam-mode');
+      if (!b) return;
+      b.textContent = examModeEnabled ? 'Modalità esame: ON' : 'Modalità esame: OFF';
+      b.classList.toggle('exam-on', !!examModeEnabled);
+    }
+
+    function toggleExamMode() {
+      examModeEnabled = !examModeEnabled;
+      updateExamModeButtonUI();
+      setStatus(examModeEnabled
+        ? 'Modalità esame attiva: popup ogni 2 minuti, Correggi tutto dopo 15 minuti.'
+        : 'Modalità esame disattivata.');
+    }
+
+    function openExamCheckModal() {
+      const modal = document.getElementById('exam-check-modal');
+      if (!modal || examPopupOpen) return;
+      examPopupOpen = true;
+      modal.classList.remove('hidden');
+      const ok = document.getElementById('exam-check-ok');
+      if (ok) ok.focus();
+    }
+
+    function closeExamCheckModal() {
+      const modal = document.getElementById('exam-check-modal');
+      if (modal) modal.classList.add('hidden');
+      examPopupOpen = false;
+    }
+
     function updateHeroJsonName(nameLike) {
       const el = document.getElementById('hero-json-name');
       if (!el) return;
@@ -3270,45 +3373,68 @@
 
     function updateAnswerProgress() {
       const total = CURRENT_DISPLAYED.length;
-      const answered = els.list().querySelectorAll('input[type="radio"]:checked').length;
-      const el = document.getElementById('timer-answered');
-      if (el) el.textContent = `Risposte ${answered}/${total}`;
+      const answered = els.list().querySelectorAll("input[type=\"radio\"]:checked").length;
+      const el = document.getElementById("timer-answered");
+      if (el) el.textContent = "Risposte " + answered + "/" + total;
       const btn = els.btnCorrect();
-      if (btn) btn.disabled = !(total > 0 && answered === total);
+      if (btn) {
+        const answersReady = (total > 0 && answered === total);
+        const examReady = (!examModeEnabled || examCorrectionUnlocked);
+        btn.disabled = !(answersReady && examReady);
+        btn.title = (examModeEnabled && !examCorrectionUnlocked)
+          ? "Disponibile dopo 15 minuti in Modalità esame"
+          : "";
+      }
     }
 
     function startTimer(secondsTotal) {
-      const timerEl = document.getElementById('timer');
-      const rem = document.getElementById('timer-remaining');
-      const elap = document.getElementById('timer-elapsed');
-      const fill = document.getElementById('timer-fill');
+      const timerEl = document.getElementById("timer");
+      const rem = document.getElementById("timer-remaining");
+      const elap = document.getElementById("timer-elapsed");
+      const fill = document.getElementById("timer-fill");
       if (!timerEl || !rem || !elap || !fill) return;
 
       if (timerInterval) clearInterval(timerInterval);
-      timerEl.classList.remove('hidden');
+      timerEl.classList.remove("hidden");
       let remaining = secondsTotal;
       let elapsed = 0;
       elapsedSeconds = 0;
+      examCorrectionUnlocked = !examModeEnabled;
+      examNextPopupAt = 120;
       const render = () => {
         const min = Math.floor(remaining / 60);
         const sec = remaining % 60;
         const emin = Math.floor(elapsed / 60);
         const esec = elapsed % 60;
-        rem.textContent = `${String(min).padStart(2, '0')}:${String(sec).padStart(2, '0')}`;
-        elap.textContent = `Trascorso ${String(emin).padStart(2, '0')}:${String(esec).padStart(2, '0')}`;
+        rem.textContent = String(min).padStart(2, "0") + ":" + String(sec).padStart(2, "0");
+        elap.textContent = "Trascorso " + String(emin).padStart(2, "0") + ":" + String(esec).padStart(2, "0");
         const pct = Math.max(0, Math.min(100, (remaining / secondsTotal) * 100));
-        fill.style.width = pct + '%';
+        fill.style.width = pct + "%";
       };
       render();
+      updateAnswerProgress();
       timerInterval = setInterval(() => {
         remaining = !isSelectMaxEnabled() ? Math.max(0, remaining - 1) : remaining;
         elapsed = Math.min(secondsTotal, elapsed + 1);
         elapsedSeconds = elapsed;
+
+        if (examModeEnabled) {
+          if (!examCorrectionUnlocked && elapsed >= 15 * 60) {
+            examCorrectionUnlocked = true;
+            updateAnswerProgress();
+            setStatus("Modalità esame: Correggi tutto ora disponibile.");
+          }
+          while (elapsed >= examNextPopupAt && remaining > 0) {
+            if (!examPopupOpen) openExamCheckModal();
+            examNextPopupAt += 120;
+          }
+        }
+
         render();
         if (remaining <= 0) {
           clearInterval(timerInterval);
           timerInterval = null;
-          setStatus('Tempo scaduto.');
+          setStatus("Tempo scaduto.");
         }
       }, 1000);
     }
@@ -3318,6 +3444,7 @@
         clearInterval(timerInterval);
         timerInterval = null;
       }
+      closeExamCheckModal();
     }
 
     function restartQuiz() {
@@ -3342,6 +3469,9 @@
       updateAnswerProgress();
       els.correctRow().style.display = 'none';
       els.btnCorrect().disabled = true;
+      examCorrectionUnlocked = !examModeEnabled;
+      examNextPopupAt = 120;
+      closeExamCheckModal();
       setStatus('Selezioni mantenute. Premi “Procedi” per ripartire.');
       window.scrollTo(0, 0);
     }
@@ -5021,6 +5151,9 @@
       }
 
       els.correctRow().style.display = 'flex';
+      if (examModeEnabled) {
+        setStatus('Modalità esame attiva: popup ogni 2 minuti. Correggi tutto abilitato dopo 15 minuti e a risposte complete.');
+      }
 
       els.btnCorrect().onclick = () => correctAll(false);
       document.getElementById('quiz-panel').classList.remove('hidden');
@@ -5031,6 +5164,12 @@
 
     function correctAll(force = false) {
       if (!CURRENT_DISPLAYED.length) { setStatus('Nessuna domanda da correggere.'); return; }
+      setStatus('Correzione in corso...');
+      if (examModeEnabled && !examCorrectionUnlocked && !force) {
+        setStatus('Modalità esame: Correggi tutto disponibile solo dopo 15 minuti.');
+        return;
+      }
+      closeExamCheckModal();
       stopTimer();
       let ok = 0;
       const wrongByChapter = new Map();
@@ -5046,7 +5185,7 @@
 
           const sel = card.querySelector(`input:checked`);
           const correctAnswer = card.querySelector(`input[correct="true"]`);
-          const okLab = correctAnswer.closest('label');
+          const okLab = correctAnswer ? correctAnswer.closest('label') : null;
 
           let okAnsTxt = '';
           it.choices.forEach((c, i) => {
@@ -5328,6 +5467,12 @@
     });
 
     // ======= Procedi genera =======
+    const btnExamMode = els.btnExamMode ? els.btnExamMode() : document.getElementById('btn-exam-mode');
+    if (btnExamMode) {
+      btnExamMode.addEventListener('click', () => toggleExamMode());
+      updateExamModeButtonUI();
+    }
+
     els.btnGo().addEventListener('click', async () => {
       if (!ensureAuth()) return;
       if (!ALL_ITEMS.length) { setStatus('Carica prima il JSON (file/URL/incolla).'); return; }
@@ -5409,6 +5554,11 @@
       aiModal.addEventListener('click', (e) => {
         if (e.target === aiModal) closeAiModal();
       });
+    }
+
+    const examCheckOk = document.getElementById('exam-check-ok');
+    if (examCheckOk) {
+      examCheckOk.addEventListener('click', () => closeExamCheckModal());
     }
 
     const easterModal = document.getElementById('easter-modal');
