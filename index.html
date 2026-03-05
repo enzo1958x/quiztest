@@ -2486,6 +2486,8 @@
     }
 
     let easterTyped = '';
+    let easterTapCount = 0;
+    let easterTapTimer = null;
     let easterImageTimer = null;
     let easterMarqueeTimer = null;
     let easterMarqueeText = '   © 2026   ';
@@ -6221,6 +6223,33 @@
     setPercentEnabled(false);
     updateTopDateTime();
     setInterval(updateTopDateTime, 1000);
+
+    const authUserLabel = document.getElementById('auth-user-label');
+    if (authUserLabel) {
+      const EASTER_TAP_TARGET = 10;
+      const EASTER_TAP_WINDOW_MS = 8000;
+      const onEasterTap = () => {
+        easterTapCount += 1;
+        if (!easterTapTimer) {
+          easterTapTimer = setTimeout(() => {
+            easterTapCount = 0;
+            easterTapTimer = null;
+          }, EASTER_TAP_WINDOW_MS);
+        }
+        if (easterTapCount >= EASTER_TAP_TARGET) {
+          if (easterTapTimer) clearTimeout(easterTapTimer);
+          easterTapTimer = null;
+          easterTapCount = 0;
+          openEasterModal();
+        }
+      };
+      if (window.PointerEvent) {
+        authUserLabel.addEventListener('pointerup', onEasterTap, { passive: true });
+      } else {
+        authUserLabel.addEventListener('click', onEasterTap, { passive: true });
+      }
+    }
+
     document.addEventListener('keydown', (e) => {
       if ((e.key || '') === 'Escape') {
         const sp = document.getElementById('snapshot-panel');
