@@ -1707,6 +1707,7 @@
           <input id="dataset-dir" class="visually-hidden" type="file" webkitdirectory="" directory="" multiple="">
           <div class="row" style="align-items:center">
             <button id="btn-choose-file" class="btn" style="width:var(--side-btn-width)"><i>📂</i> Scegli file</button>
+            <button id="btn-cloud-picker" class="btn btn-ghost" style="width:var(--side-btn-width)"><i>☁️</i> Scegli da GitHub</button>
             <span id="file-badge" class="badge flex" title="Nessun file selezionato">Nessun file…</span>
           </div>
           <div class="row" style="margin-top:.35rem">
@@ -2321,6 +2322,7 @@
       datasetDirInput: () => document.getElementById('dataset-dir'),
       datasetDirBtn: () => document.getElementById('btn-choose-dataset-dir'),
       fileBtn: () => document.getElementById('btn-choose-file'),
+      cloudPickerBtn: () => document.getElementById('btn-cloud-picker'),
       fileBadge: () => document.getElementById('file-badge'),
       urlInput: () => document.getElementById('url'),
       urlBtn: () => document.getElementById('btn-load-url'),
@@ -5720,13 +5722,16 @@
     }
 
     els.fileBtn().addEventListener('click', async () => {
-      if (!ensureAuth()) return;
-      if (QUIZ_GIT_MODE) {
-        await chooseJsonFromGithubManifest();
-        return;
-      }
       els.fileInput().click();
     });
+
+    const cloudPickerBtn = els.cloudPickerBtn();
+    if (cloudPickerBtn) {
+      cloudPickerBtn.addEventListener('click', async () => {
+        if (!ensureAuth()) return;
+        await chooseJsonFromGithubManifest();
+      });
+    }
 
     els.fileInput().addEventListener('change', async (e) => {
       const files = Array.from((e.target.files || []));
@@ -6213,12 +6218,14 @@
     currentMode = 'base';
     if (QUIZ_GIT_MODE) {
       const fileBtn = els.fileBtn();
-      if (fileBtn) fileBtn.innerHTML = '<i>☁️</i> Scegli da GitHub';
+      if (fileBtn) fileBtn.innerHTML = '<i>📁</i> Scegli file locale';
+      const cloudBtn = els.cloudPickerBtn();
+      if (cloudBtn) cloudBtn.classList.remove('hidden');
       const fileInput = els.fileInput();
-      if (fileInput) fileInput.disabled = true;
+      if (fileInput) fileInput.disabled = false;
       const datasetBtn = els.datasetDirBtn();
-      if (datasetBtn) datasetBtn.classList.add('hidden');
-      setStatus('QuizGit pronto: login Supabase e carica un dataset (GitHub, URL o Incolla JSON).');
+      if (datasetBtn) datasetBtn.classList.remove('hidden');
+      setStatus('QuizGit pronto: usa Scegli file (locale) o Scegli da GitHub.');
     }
     setPercentEnabled(false);
     updateTopDateTime();
