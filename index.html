@@ -296,6 +296,23 @@
       width: var(--side-btn-width);
     }
 
+    #source-panel .file-picker-row {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      column-gap: .6rem;
+      row-gap: .4rem;
+      align-items: stretch;
+      width: 100%;
+    }
+
+    #source-panel .file-picker-row .btn {
+      width: 100% !important;
+      min-width: 0;
+      padding-left: .6rem;
+      padding-right: .6rem;
+      white-space: nowrap;
+    }
+
     @media (max-width:980px) {
       #source-panel .source-top-actions {
         grid-template-columns: 1fr;
@@ -1652,6 +1669,9 @@
     }
 
     @media (max-width: 560px) {
+      #source-panel .file-picker-row {
+        grid-template-columns: 1fr;
+      }
       #source-panel .field-narrow > .row {
         flex-direction: column;
         align-items: stretch !important;
@@ -1704,14 +1724,12 @@
         <div class="field field-narrow">
           <label>Carica da file</label>
           <input id="file" class="visually-hidden" type="file" accept=".json,application/json">
-          <input id="dataset-dir" class="visually-hidden" type="file" webkitdirectory="" directory="" multiple="">
-          <div class="row" style="align-items:center">
-            <button id="btn-choose-file" class="btn" style="width:var(--side-btn-width)"><i>📂</i> Scegli file</button>
-            <button id="btn-cloud-picker" class="btn btn-ghost" style="width:var(--side-btn-width)"><i>☁️</i> Scegli da GitHub</button>
-            <span id="file-badge" class="badge flex" title="Nessun file selezionato">Nessun file…</span>
+          <div class="row file-picker-row" style="align-items:center;gap:.5rem">
+            <button id="btn-choose-file" class="btn"><i>📂</i> Scegli file</button>
+            <button id="btn-cloud-picker" class="btn btn-ghost"><i>☁️</i> Scegli da GitHub</button>
           </div>
           <div class="row" style="margin-top:.35rem">
-            <button id="btn-choose-dataset-dir" class="btn btn-ghost hidden" style="width:var(--side-btn-width)">Seleziona cartella dataset</button>
+            <span id="file-badge" class="badge flex" title="Nessun file selezionato">Nessun file…</span>
           </div>
         </div>
 
@@ -5766,31 +5784,37 @@
       }
     });
 
-    els.datasetDirBtn().addEventListener('click', () => {
-      const dirInput = els.datasetDirInput();
-      if (!dirInput) return;
-      dirInput.value = '';
-      dirInput.click();
-    });
+    const datasetDirBtn = els.datasetDirBtn();
+    if (datasetDirBtn) {
+      datasetDirBtn.addEventListener('click', () => {
+        const dirInput = els.datasetDirInput();
+        if (!dirInput) return;
+        dirInput.value = '';
+        dirInput.click();
+      });
+    }
 
-    els.datasetDirInput().addEventListener('change', async (e) => {
-      const files = Array.from((e.target.files || []));
-      if (!files.length) {
-        setStatus('Selezione cartella annullata.');
-        return;
-      }
-      ingestSupportFiles(files);
-      await refreshPdfChapterMapForCurrentJson();
-      currentMode = 'base';
-      setDatasetDirButtonVisible(!currentPdfLinkCfg);
-      setStatus('File caricato ✓ (' + ALL_ITEMS.length + ' quiz) - ' + currentMappingStatusText() + '. Imposta filtri e premi "Procedi"');
-      renderChapters();
+    const datasetDirInput = els.datasetDirInput();
+    if (datasetDirInput) {
+      datasetDirInput.addEventListener('change', async (e) => {
+        const files = Array.from((e.target.files || []));
+        if (!files.length) {
+          setStatus('Selezione cartella annullata.');
+          return;
+        }
+        ingestSupportFiles(files);
+        await refreshPdfChapterMapForCurrentJson();
+        currentMode = 'base';
+        setDatasetDirButtonVisible(!currentPdfLinkCfg);
+        setStatus('File caricato ✓ (' + ALL_ITEMS.length + ' quiz) - ' + currentMappingStatusText() + '. Imposta filtri e premi "Procedi"');
+        renderChapters();
         updateSelectedJsonBadge();
-      document.getElementById('filters-panel').classList.remove('hidden');
-      refreshModeUI();
-      renderStats();
-      if (els.num() && ALL_ITEMS.length) els.num().value = Math.min(30, ALL_ITEMS.length);
-    });
+        document.getElementById('filters-panel').classList.remove('hidden');
+        refreshModeUI();
+        renderStats();
+        if (els.num() && ALL_ITEMS.length) els.num().value = Math.min(30, ALL_ITEMS.length);
+      });
+    }
 
     async function loadFromUrl(url) {
       try { const res = await fetch(url, { cache: 'no-store' }); if (!res.ok) throw new Error('HTTP ' + res.status); return await res.json(); }
